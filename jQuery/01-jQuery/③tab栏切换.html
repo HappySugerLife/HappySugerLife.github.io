@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .box {
+            width: 800px;
+            margin: 100px auto;
+        }
+        
+        .box .title {
+            height: 40px;
+            line-height: 40px;
+            background: #f1f1f1;
+        }
+        
+        .box .title ul li {
+            padding-left: 20px;
+            padding-right: 20px;
+            float: left;
+            cursor: pointer;
+        }
+        
+        .box .title ul li.active {
+            background: #c81623;
+            color: white;
+        }
+        
+        .box .content .item {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="title">
+            <ul>
+                <li class="active">商品介绍</li>
+                <li>规格与包装</li>
+                <li>售后保障</li>
+                <li>商品评价(50000)</li>
+                <li>手机社区</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="item" style="display:block">商品介绍模块内容</div>
+            <div class="item">规格与包装模块内容</div>
+            <div class="item">售后保障模块内容</div>
+            <div class="item">商品评价(50000)模块内容</div>
+            <div class="item">手机社区模块内容</div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $(".box .title ul li").click(function() {
+            console.log($(this));
+            // 获取当前li所在索引号
+            var index = $(this).index();
+            // 排他
+            $(this).addClass("active").siblings().removeClass("active");
+            // 显示对应.item层
+            $(".content .item").eq(index).show().siblings(".item").hide();
+        });
+    </script>
+</body>
+
+</html>

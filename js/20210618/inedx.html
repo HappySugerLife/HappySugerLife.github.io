@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        str = "E:/class/php/js/day2/abc.html";
+        var wjm = str.substr(21, 3);
+        var kzm = str.substr(25, 4);
+        document.write("文件名：" + wjm + "，扩展名" + kzm + "<br><br>");
+
+        str1 = "49238028424";
+        var sz = str1.split(2);
+        var cd = sz.length
+        document.write("数组为：" + sz + "<br><hr>");
+        document.write("数组的长度为：" + cd + "<br><br>");
+
+        // var s1 = prompt("请输入任意字符", "");
+        // var s2 = s1.split("").reverse().join("").toLowerCase();
+        // for (var i = 0; i <= s2.length; i++) {
+
+        //     if (i == 0) {
+        //         var s7 = s2.charAt(0).toUpperCase()
+        //     }
+        //     if (i == s2.length) {
+        //         s7 += s2[s2.length - 1].toUpperCase();
+        //     } else {
+        //         s7 += s2.charAt(i).toLowerCase()
+        //     }
+        // }
+
+        // document.write("转换后为" + s7 + "<br><br>");
+
+        var pi = Math.round(Math.pow(Math.PI, 5))
+        document.write("π四舍五入取整为：" + pi + "<br><br>");
+
+        var max = 100;
+        var min = 1;
+
+        var a = parseInt(Math.random() * (max - min + 1) + min, 10);
+        var b = Math.floor(Math.random() * (max - min + 1) + min);
+        var c = parseInt(Math.random() * (max + 1), 10);
+        var d = Math.floor(Math.random() * (max + 1));
+        var e = parseInt(Math.random() * max, 10) + 1;
+        var f = Math.floor(Math.random() * max) + 1;
+
+        document.write("随机数：" + a + "," + b + "," + c + "," + d + "," + e + "," + f + "<br><br>");
+
+        var fn = {
+            ecu1: "黑色",
+            ecu2: 5 + "kg",
+            ecu3: "华硕",
+            ecu4: "k55v",
+            ecua: function() {
+                document.write("电脑可以看电影<br>");
+            },
+            ecub: function() {
+                document.write("电脑可以听音乐<br>");
+            },
+            ecuc: function() {
+                document.write("电脑可以打游戏<br>");
+            },
+            ecud: function() {
+                document.write("电脑可以敲代码<br><br>");
+            },
+        };
+        document.write("电脑的颜色为：" + fn.ecu1 + "<br>");
+        document.write("电脑的重量为：" + fn.ecu2 + "<br>");
+        document.write("电脑的品牌为：" + fn.ecu3 + "<br>");
+        document.write("电脑的类型为：" + fn.ecu4 + "<br>");
+        fn.ecua();
+        fn.ecub();
+        fn.ecuc();
+        fn.ecud();
+
+        var button = new Object();
+        button.wa = 100 + "px";
+        button.hi = 200 + "px";
+        button.co = "red";
+        button.click = function() {
+            document.write("我是按钮，你可以点击我<br><br>");
+        }
+        document.write("按钮的宽度为：" + button.wa + "<br>");
+        document.write("按钮的高度为：" + button.hi + "<br>");
+        document.write("按钮的背景颜色为：" + button.co + "<br>");
+        button.click();
+
+
+        var arr = ["张三", "李四", "王五", "赵六", "孙七", "王八", "李狗蛋", "关羽", "吕布", "安琪拉", "亚瑟", "妲己"];
+        var max = arr.length - 1;
+        var min = 0;
+        var arrs = parseInt(Math.random() * (max - min + 1) + min, 10);
+        var arrc = arr[arrs];
+        document.write(arrc + "<br>");
+    </script>
+</body>
+
+</html>

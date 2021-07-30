@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font: 12px/1.6 tahoma, Arial, Helvetica, sans-serif;
+            color: #4D4D4D;
+            text-align: center;
+            /* background-color: #B2B3B2; */
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        #inputForm {
+            display: block;
+            margin-top: 100px;
+        }
+        
+        label {
+            display: block;
+            padding: 10px 0px;
+        }
+        
+        label,
+        summary {
+            cursor: default;
+        }
+        
+        .text {
+            border: 2px solid #fd3d02;
+            height: 44px;
+            line-height: 40px;
+            width: 460px;
+            padding: 0px 15px;
+        }
+        
+        input {
+            font: 12px/1.6 tahoma, Arial, Helvetica, sans-serif;
+            outline: 0;
+            vertical-align: middle;
+        }
+        
+        .submit {
+            border: 2px solid #fd3d02;
+            background-color: #fd3d02;
+            height: 48px;
+            line-height: 48px;
+            width: 100px;
+            color: #FFF;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: -4px;
+        }
+        
+        label.input span {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #888;
+        }
+        
+        label {
+            display: block;
+            padding: 10px 0px;
+        }
+        
+        label,
+        summary {
+            cursor: default;
+        }
+        
+        .itmer {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 605px;
+            position: relative;
+            top: -248px;
+            left: 493px;
+            line-height: 50px;
+            background-color: white;
+            font-size: 32px;
+            font-weight: 900;
+            color: red;
+            display: none;
+        }
+        
+        li {
+            font-size: 14px;
+            color: gray;
+            font-weight: normal;
+        }
+        
+        .x {
+            position: absolute;
+            left: 68%;
+            top: 109px;
+            z-index: 1;
+            border: none;
+            background: none;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post" id="inputForm" onsubmit="return false">
+        <label class="input">
+            <input type="text" name="word" value="" class="text">
+            <input type="submit" class="submit" value="开始生成">
+            <span>只要您输入你想要的文字，并点击"开始生成"，就可以生成您所想要的藏头诗。</span>
+        </label>
+        <label><strong>请选择要生成的模式：</strong></label>
+        <label class="txt">
+            <em>诗词字数：</em>
+            <span><input type="radio" name="length" checked="checked" value="0">五言</span>
+            <span><input type="radio" name="length" value="1">七言</span>
+        </label>
+        <label class="wz">
+            <em>生成位置：</em>
+            <span><input type="radio" name="type" checked="checked" value="1">藏头诗</span>
+            <span><input type="radio" name="type" value="2">藏尾诗</span>
+            <span><input type="radio" name="type" value="3">藏中诗</span>
+            <span><input type="radio" name="type" value="4">递增诗</span>
+            <span><input type="radio" name="type" value="5">递减诗</span>
+        </label>
+        <label class="ms">
+            <em>生成模式：</em>
+            <span><input type="radio" name="mode" checked="checked" value="1">双句一压</span>
+            <span><input type="radio" name="mode" value="2">双句押韵</span>
+            <span><input type="radio" name="mode" value="3">一三四押</span>
+        </label>
+    </form>
+    <button class="x">x</button>
+    <div class="itmer">
+
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        function getDAta(woed, len, type, pat) {
+            $.get("http://api.tianapi.com/txapi/cangtoushi/index", {
+                key: "bb96a77498813a23252aa54324d0d9d3",
+                word: woed,
+                len: len,
+                type: type,
+                pat: pat
+            }, function(data) {
+                if (data.code == 250) {
+                    var msg = data.msg + "，请更换关键字！";
+                    $(".itmer").html(msg);
+                    return;
+                };
+                htmrStr = ``;
+                var data = data.newslist;
+                $.each(data, function(index, itmer) {
+                    console.log(itmer);
+                    htmrStr += `
+                        <li>${itmer.list}</li>                       
+                    `
+                });
+                $(".itmer").html(htmrStr);
+            });
+        };
+
+        $(".submit").click(function() {
+            var textVal = $(".text").val();
+            if (textVal == "") {
+                alert("请输入后在生成！");
+                return;
+            }
+            var txtVal = $(".txt :checked").val();
+            var wzVal = $(".wz :checked").val();
+            var tmsal = $(".ms :checked").val();
+            getDAta(textVal, txtVal, wzVal, tmsal);
+            $("body").css("backgroundColor", "#B2B3B2").fadeIn();
+            $(".itmer,.x").fadeIn();
+        })
+        $(".x").click(function() {
+            $("body").css("backgroundColor", "#FFFFFF");
+            $(".itmer,.x").fadeToggle();
+            $(".text").val("");
+        });
+        $(".text").keyup(function(e) {
+            if (e.keyCode == "13") {
+                $(".submit").click();
+            };
+        })
+    </script>
+</body>
+
+</html>

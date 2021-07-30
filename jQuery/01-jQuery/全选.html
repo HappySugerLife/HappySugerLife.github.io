@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        label {
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <input type="text" placeholder="请输入需要添加的选项" class="content">
+        <button class="addBtn">添加</button>
+    </p>
+
+    <p class="btn_box">
+        <button class="qx">全选</button>
+        <button class="qbx">全不选</button>
+        <button class="fx">反选</button>
+        <button class="scsx">删除所选</button>
+    </p>
+    <div class="xx">
+
+        <p>
+            <label><input type="checkbox" />家里没宽带</label>
+        </p>
+
+        <p>
+            <label><input type="checkbox" />网速不够快</label>
+        </p>
+
+        <p>
+            <label><input type="checkbox" />手机没流量</label>
+        </p>
+
+        <p>
+            <label><input type="checkbox" />学校wifi</label>
+        </p>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        // 添加功能
+        $(".addBtn").click(function() {
+            // 获取值
+            var con_val = $(".content").val();
+            if (con_val == "") {
+                alert("请输入内容以后再添加");
+                return;
+            }
+            // 创建
+            var newP = $(`<p><label><input type="checkbox"/>${con_val}</label></p>`);
+            $(".xx").append(newP);
+            $(".content").val("");
+        });
+
+        // 全选
+        $(".qx").click(function() {
+            $(".xx :checkbox").prop("checked", true);
+            $("body").prop({
+                style: `background: indigo;marginTop: 50px;margin-Top: ${50}px;`,
+
+            })
+        });
+
+        // 全不选
+        $(".qbx").click(function() {
+            $(".xx :checkbox").prop("checked", false);
+        });
+
+        // 反选
+        $(".fx").click(function() {
+            $(".xx :checkbox").each(function(index, domElement) {
+                domElement.checked = !domElement.checked;
+            })
+        });
+
+        // 删除所选
+        $(".scsx").click(function() {
+            var checkedLength = $(".xx :checked").length;
+            if (checkedLength == 0) {
+                alert("请选中再删除");
+                return;
+            }
+            $(".xx :checked").parent().remove();
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        
+        p {
+            font-size: 40px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p></p>
+
+    <script>
+        // 获取p段落的dom对象
+        var P = document.querySelector("p");
+
+        function setBodyBgColor() {
+
+            var arrColor = "0123456789abcdef".split("");
+
+            // 颜色字符串
+            var strColor = "#";
+            for (var i = 1; i <= 6; i++) {
+                // 随机数组下标
+                var randomIndex = Math.floor(Math.random() * (arrColor.length));
+                // 拼接字符串
+                strColor += arrColor[randomIndex];
+            }
+
+            // 设置网页背景颜色
+            document.body.style.backgroundColor = strColor;
+            // 设置p段落内容
+            P.innerHTML = strColor;
+        }
+
+        // 开启定时器
+        setInterval(setBodyBgColor, 1000);
+
+        // 手动调用一次函数
+        setBodyBgColor();
+    </script>
+</body>
+
+</html>

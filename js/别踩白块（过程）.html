@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    input {
+        margin-left: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .box {
+        width: 400px;
+        height: 400px;
+        border: 1px solid blue;
+        margin-left: 450px;
+        position: relative;
+        overflow: hidden; 
+    }
+    
+    .box .content {
+        position: absolute;
+        top: -50px;
+        left: 0;
+    }
+    
+    .box .content .move {
+        overflow: hidden;
+    }
+    
+    .box .content .move .block {
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        box-sizing: border-box;
+        float: left;
+    }
+    
+    .box .content .move .block.lik {
+        background: black;
+    }
+</style>
+</head>
+
+<body>
+    <input type="text" disabled="disabled" value="0" class="marks" />
+
+    <div class="box">
+        <div class="content">
+            <div class="move">
+                <div class="block lik"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block lik"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block lik"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block lik"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 选择器
+        function $(cssSelector) {
+            var obj = document.querySelectorAll(cssSelector);
+            if (obj.length == 1) {
+                return obj[0];
+            }
+            return obj;
+        }
+
+        // 随机整数
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        // 下落速度
+        var speed = 1;
+        // 获取对象
+        var conDom = $(".content");
+        // 分数,默认是0
+        var score = 0;
+        // 定时器标识符
+        var timer = null;
+        // 游戏状态
+        var plAy = false;
+
+        // 开启定时器
+        function reStart() {
+            timer = setInterval(function() {
+                // 获取当前的top值
+                var currentTop = parseInt(window.getComputedStyle(conDom, null)["top"]);
+
+                // 当我们content区域触底的时候,也就是当前top>=0的时候,我们需要增加一行
+                if (currentTop >= 0) {
+                    // 判断最后一行里面所以的块是否存在.black类,如果都没有.black类,那就是代表最后一行的黑块已经被点击过了
+                    for (var j = 0; j < conDom.lastElementChild.children.length; j++) {
+                        if (conDom.lastElementChild.children[j].classList.contains("lik")) {
+                            alert("游戏结束");
+                            window.clearInterval(timer);
+                            // 修改isOver的值为true
+                            plAy = true;
+                            return;
+
+                        }
+                    }
+                    // 创建新的一行
+                    var newLine = document.createElement("div");
+                    // 设置行的类名
+                    newLine.className = "move";
+
+                    // 随机黑块
+                    var randomNum = getRandom(1, 4);
+
+                    // 创建列
+                    for (var i = 1; i <= 4; i++) {
+                        // 创建新列
+                        var newColumn = document.createElement("div");
+
+                        // 设置列的类名
+                        newColumn.className = "block";
+
+                        if (randomNum == i) { // 设置黑块类名
+                            newColumn.classList.add("lik");
+                        }
+
+                        // 把列追加到新行里面
+                        newLine.appendChild(newColumn)
+                    }
+
+                    // 把新行追加到content 
+                    conDom.insertBefore(newLine, conDom.firstElementChild);
+
+                    // 设置当前content的top值为-100px  为了实现无缝下落
+                    currentTop = -100;
+
+                    //删除content里面最后一行
+                    if (conDom.children.length > 5) {
+                        conDom.lastElementChild.remove();
+                    }
+                }
+
+                // 设置content的top值
+                conDom.style.top = currentTop + speed + "px";
+            }, 15);
+
+        }
+
+        reStart();
+
+        conDom.onclick = function(e) {
+
+            if (!plAy) {
+                if (e.target.classList.contains("lik")) { // 如果是黑块                 
+                    // 移除.lik类名
+                    e.target.classList.remove("lik");
+                    // 加分
+                    score++;
+                    $(".marks").value = score;
+
+                    //5分加速
+                    if (score % 5 == 0) {
+                        speed++;
+                    }
+
+                } else { // 如果是白块
+                    alert("游戏结束");
+                    window.clearInterval(timer);
+                    // 修改plAy的值为true
+                    plAy = true;
+                }
+            } else {
+                alert("游戏已经结束");
+            }
+        }
+    </script>
+</body>
+
+</html>

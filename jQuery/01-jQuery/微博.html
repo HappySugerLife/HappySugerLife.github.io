@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul {
+            background: rgba(161, 155, 156, 0.4);
+        }
+        
+        .box {
+            background: url(../20210706/images/17.jpeg)no-repeat center;
+            width: 640px;
+            margin: 50px auto;
+            border: 1px solid black;
+        }
+        
+        .lssue {
+            background: rgba(161, 155, 156, 0.4);
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        textarea {
+            width: 250px;
+            height: 100px;
+            resize: none;
+            outline: none;
+            background: rgba(161, 155, 156, 0.4);
+        }
+        
+        li {
+            margin-left: 140px;
+            list-style: none;
+            width: 350px;
+            overflow: hidden;
+        }
+        
+        a {
+            float: right;
+            color: blue;
+        }
+        
+        img {
+            width: 5000px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="box">
+        <div class="lssue">
+            微博发布
+            <textarea></textarea>
+            <button>发布</button>
+        </div>
+        <ul>
+            <li>缇娜 <a href="">删除</a></li>
+            <li>十六夜咲夜 <a href="">删除</a></li>
+            <li>凸守早苗 <a href="">删除</a></li>
+            <li>香风智乃 <a href="">删除</a></li>
+            <li>蓬莱山辉夜 <a href="">删除</a></li>
+            <li>西行寺幽幽子 <a href="">删除</a></li>
+            <li>永远的十七岁的少女——八云紫 <a href="">删除</a></li>
+        </ul>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $("button").on("click", function() {
+            // 获取
+            var txtVal = $("textarea").val();
+            // 创建
+            if (txtVal == "") {
+                alert("请输入后再发布！！！");
+                return;
+            }
+            var newLi = $(`<li>${txtVal}<a href="">删除</a></li>`);
+            // 追加
+            $(".box ul").append(newLi);
+            // 隐藏
+            newLi.hide();
+            // 动画
+            newLi.slideDown();
+            // 清除
+            $("textarea").val("");
+        });
+
+        $("ul").on("click", "a", function() {
+            // 先上滑,再执行删除操作
+            $(this).parent().slideUp(function() {
+                $(this).remove();
+            });
+            return false;
+        })
+    </script>
+</body>
+
+</html>

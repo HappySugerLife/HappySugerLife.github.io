@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    input {
+        margin-left: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .box {
+        width: 400px;
+        height: 400px;
+        border: 1px solid blue;
+        margin-left: 450px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .box .content {
+        position: absolute;
+        top: -50px;
+        left: 0;
+    }
+    
+    .box .content .move {
+        overflow: hidden;
+    }
+    
+    .box .content .move .block {
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        box-sizing: border-box;
+        float: left;
+    }
+    
+    .box .content .move .block.lik {
+        background: black;
+    }
+</style>
+</head>
+
+<body>
+    <input type="text" disabled="disabled" value="0" class="marks" />
+
+    <div class="box">
+        <div class="content">
+            <div class="move">
+                <div class="block lik"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block lik"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block lik"></div>
+                <div class="block"></div>
+            </div>
+            <div class="move">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block lik"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 随机数
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        // 定义一个Game构造函数
+        function Game(element) {
+            // 下落速度
+            this.speed = 1;
+            // 定时器标识符属性
+            this.timer = null;
+            //游戏区的dom对象
+            this.conDom = document.querySelector(".content");
+            // 游戏分数
+            this.score = 0;
+            // 游戏状态
+            this.plAy = false;
+
+            // 调用初始化方法
+            this.init();
+        }
+
+        //游戏区域下落方法
+        Game.prototype.moveDown = function() {
+
+            // 开启定时器
+            this.timer = window.setInterval(function() {
+
+                // 设置conDom游戏区域的top值
+                this.conDom.style.top = this.conDom.offsetTop + this.speed + "px";
+
+                // 判断当前top值是否 >= 0  也就是触底
+                if (this.conDom.offsetTop >= 0) {
+                    // 调用删除一行的方法
+                    this.removeRow();
+
+                    // 调用创建新的一行的方法
+                    this.createRow();
+
+                    // 判断触底了,游戏是否结束的方法
+                    this.isTouchBottom();
+                }
+            }.bind(this), 15);
+
+        }
+
+        //创建新的一行的方法
+        Game.prototype.createRow = function() {
+            // 创建一行
+            var newRow = document.createElement("div");;
+            // 设置行类名
+            newRow.classList.add("move");
+
+            // 获取随机1~4之间的整数
+            var randomNum = getRandom(1, 4);
+
+            for (var i = 1; i <= 4; i++) {
+                // 创建列
+                var newBlock = document.createElement("div");
+                // 设置列类名
+                newBlock.classList.add("block");
+
+                // 添加随机黑块
+                if (randomNum == i) {
+                    newBlock.classList.add("lik");
+                }
+
+                // 把列加到行中
+                newRow.appendChild(newBlock);
+            }
+            // 把新行加到游戏区域中
+            this.conDom.insertBefore(newRow, this.conDom.firstElementChild);
+            // 设置游戏区域的top值为-100px
+            this.conDom.style.top = "-100px";
+        }
+
+        //判断触底的时候,删除一行的方法
+        Game.prototype.removeRow = function() {
+            if (this.conDom.children.length >= 5) {
+                // 删除最后最后一行
+                this.conDom.lastElementChild.remove();
+            }
+        }
+
+        //游戏区域点击的方法
+        Game.prototype.handlerClick = function() {
+
+            // 事件委托
+            this.conDom.onclick = function(e) {
+                if (!this.plAy) {
+                    if (e.target.classList.contains("lik")) {
+                        // 点击黑块变白块
+                        e.target.classList.remove("lik");
+                        // 加分
+                        this.score++;
+                        // 设置文本框的值
+                        document.querySelector(".marks").value = this.score;
+
+                        // 每5分加1速度
+                        if (this.score % 5 == 0) {
+                            this.speed++;
+                        }
+                    } else {
+                        // 点击白块
+                        alert("游戏结束");
+                        // 清除定时器
+                        window.clearInterval(this.timer);
+                        // 改变plAy属性的值
+                        this.plAy = true;
+                    }
+                } else {
+                    alert("游戏已经结束");
+                }
+
+            }.bind(this)
+        }
+        console.dir(this);
+        //触底
+        Game.prototype.isTouchBottom = function() {
+            // 判断游戏区域最后一行里面所有的块是否存在.lik类名
+            for (var j = 0; j < this.conDom.lastElementChild.children.length; j++) {
+                if (this.conDom.lastElementChild.children[j].classList.contains("lik")) {
+                    alert("游戏触底,结束!!!");
+                    // 清除定时器
+                    window.clearInterval(this.timer);
+                    // 改变plAy属性的值
+                    this.plAy = true;
+                }
+            }
+        }
+
+        //初始化方法
+        Game.prototype.init = function() {
+            this.moveDown();
+            this.handlerClick();
+        }
+
+        // 实例化Game对象
+        new Game();
+    </script>
+</body>
+
+</html>

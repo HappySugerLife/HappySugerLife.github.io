@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <input type="text" placeholder="请输入需要添加的选项" class="content">
+        <button class="addBtn">添加</button>
+    </p>
+
+    <p class="btn_box">
+        <button>全选</button>
+        <button>全不选</button>
+        <button>反选</button>
+        <button>删除所选</button>
+    </p>
+
+    <p>
+        <label><input type="checkbox" />家里没宽带</label>
+    </p>
+
+    <p>
+        <label><input type="checkbox" />网速不够快</label>
+    </p>
+
+    <p>
+        <label><input type="checkbox" />手机没流量</label>
+    </p>
+
+    <p>
+        <label><input type="checkbox" />学校wifi</label>
+    </p>
+
+    <script>
+        var addBtn = document.querySelector(".addBtn");
+        var content = document.querySelector(".content");
+        // 添加按钮点击事件
+        addBtn.onclick = function() {
+            // 获取文本框的值
+            var contentVal = content.value;
+            if (contentVal == "") {
+                alert("请输入内容以后再添加");
+                // return关键字可以终止函数的执行
+                return;
+            }
+
+            // 创建p标签
+            var newP = document.createElement("p");
+            // 设置p标签内容
+            newP.innerHTML = '<label><input type="checkbox"/>' + contentVal + "</label>";
+            // 把新的p标签追加到body中
+            document.body.appendChild(newP);
+            // 置空
+            content.value = "";
+        }
+
+        var btns = document.querySelectorAll(".btn_box button");
+        // 全选按钮点击事件
+        btns[0].onclick = function() {
+            // 获取所有的复选框
+            var checkboxs = document.querySelectorAll("input[type='checkbox']");
+
+            // 循环遍历
+            for (var i = 0; i < checkboxs.length; i++) {
+                checkboxs[i].checked = true;
+            }
+        }
+
+        // 全不选按钮点击事件
+        btns[1].onclick = function() {
+            // 获取所有的复选框
+            var checkboxs = document.querySelectorAll("input[type='checkbox']");
+            // 循环遍历
+            for (var i = 0; i < checkboxs.length; i++) {
+                checkboxs[i].checked = false;
+            }
+        }
+
+        // 反选()按钮点击事件
+        btns[2].onclick = function() {
+            // 获取所有的复选框
+            var checkboxs = document.querySelectorAll("input[type='checkbox']");
+            // 循环遍历
+            for (var i = 0; i < checkboxs.length; i++) {
+                checkboxs[i].checked = !checkboxs[i].checked;
+            }
+        }
+
+        // 删除所选按钮点击事件
+        btns[3].onclick = function() {
+            // 定义一个变量,保存被选中的复选框总个数
+            var num = 0;
+
+            // 获取所有的复选框
+            var checkboxs = document.querySelectorAll("input[type='checkbox']");
+            // 循环遍历
+            for (var i = 0; i < checkboxs.length; i++) {
+                if (checkboxs[i].checked) { // 判断是否为选中状态
+                    checkboxs[i].parentNode.remove();
+                    num++;
+                }
+            }
+
+            if (num == 0) {
+                alert("请勾选以后,再尝试删除");
+            }
+        }
+    </script>
+</body>
+
+</html>

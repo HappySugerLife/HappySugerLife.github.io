@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 80px;
+            height: 68px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/angel.gif" />
+
+    <script>
+        // 获取图片dom对象
+        var oImg = document.querySelector("img");
+
+        // 给document绑定鼠标移动事件
+        document.onmousemove = function(e) {
+            // 因为需要让鼠标出现在图片的中间,所以我们需要减去图片的宽度的一半 ,减去高度的一半
+            oImg.style.left = e.pageX - 40 + "px";
+            oImg.style.top = e.pageY - 34 + "px";
+        }
+    </script>
+</body>
+
+</html>

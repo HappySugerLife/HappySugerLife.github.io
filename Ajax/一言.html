@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        button {
+            border: none;
+            width: 500px;
+            font-size: 50px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: pink;
+            cursor: pointer;
+        }
+        
+        p {
+            width: 800px;
+            color: rgb(57, 184, 235);
+            padding-top: 30px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <button>开始随机</button>
+    <br>
+    <label class="txt">
+        <em>一言类型:</em>
+        <label><span><input type="radio" name="length" checked="checked" value="a">动画</span></label>
+    <label><span><input type="radio" name="length" value="c">游戏</span></label>
+    <label><span><input type="radio" name="length" value="d">文学</span></label>
+    <label><span><input type="radio" name="length" value="e">原创</span></label>
+    <label><span><input type="radio" name="length" value="f">网络</span></label>
+    <label><span><input type="radio" name="length" value="g">其他</span></label>
+    <label><span><input type="radio" name="length" value="h">影视</span></label>
+    <label><span><input type="radio" name="length" value="i">诗词</span></label>
+    <label><span><input type="radio" name="length" value="j">网易云</span></label>
+    <label><span><input type="radio" name="length" value="k">哲学</span></label>
+    <label><span><input type="radio" name="length" value="l">抖机灵</span></label>
+    </label>
+    <br>
+    <p>
+    </p>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $("button").click(function() {
+            var typeVal = $("span :checked").val();
+            $.get("https://v2.alapi.cn/api/hitokoto", {
+                token: "lJLxHK2NrnPVri457AaK",
+                type: typeVal
+            }, function(data) {
+                $("p").html(`来自：${data.data.from}<br><br>
+                    ${data.data.hitokoto}
+                `);
+            })
+        })
+        $("body").keyup(function(e) {
+            if (e.keyCode == 13) {
+                $("button").click();
+            }
+        })
+    </script>
+</body>
+
+</html>

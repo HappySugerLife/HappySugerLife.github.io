@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            width: 500px;
+            margin: 200px auto;
+        }
+        
+        .box .content {
+            width: 170px;
+            height: 20px;
+            border: 1px solid gray;
+            margin-bottom: 10px;
+            position: relative;
+            box-shadow: 3px 2px 4px -1px rgba(0, 0, 0, 0.2);
+            visibility: hidden;
+            overflow: hidden;
+        }
+        
+        .box .content::after {
+            content: "";
+            position: absolute;
+            left: 16px;
+            bottom: -15px;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-top: 8px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="content"></div>
+        <input type="text" autofocus />
+    </div>
+
+    <script>
+        // 获取相关对象
+        var oInput = document.querySelector("input");
+        var content = document.querySelector(".content");
+        oInput.onfocus = function() {
+            if (oInput.value != "") {
+                content.style.visibility = "visible";
+            }
+        }
+        oInput.onblur = function() {
+            content.style.visibility = "hidden";
+        }
+
+        oInput.onkeyup = function() {
+            if (this.value != "") {
+                content.style.visibility = "visible";
+                content.innerHTML = this.value;
+            } else {
+                content.style.visibility = "hidden";
+            }
+        }
+    </script>
+</body>
+
+</html>

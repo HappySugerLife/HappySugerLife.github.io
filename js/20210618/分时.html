@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="./images/swh.gif" alt="">
+    <p>亲，上午好，好好写代码</p>
+
+    <script>
+        // 获取日期
+        var date = new Date();
+
+        // 获取小时数
+        var hours = date.getHours();
+        // 获取图片
+        var Img = document.querySelector("img");
+        // 获取段落
+        var P = document.querySelector("p");
+        // 判断
+        if (hours <= 12) {
+            Img.src = "./images/swh.gif";
+            P.innerHTML = "亲，上午好，好好写代码";
+        } else if (hours <= 18) {
+            Img.src = "images/xwh.gif";
+            P.innerHTML = "亲，下午好，好好写代码";
+        } else {
+            Img.src = "images/wsh.gif";
+            P.innerHTML = "亲，晚上好，好好写代码";
+        }
+    </script>
+</body>
+
+</html>

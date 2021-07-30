@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .box {
+            width: 1069px;
+            margin: 50px auto;
+        }
+        
+        .box .bigImg {
+            width: 500px;
+            /* 最小高度 */
+            min-height: 358px;
+            margin: 0 auto;
+            display: block;
+            border: 3px solid rgb(224, 203, 207);
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .box .nav ul {
+            background: rgb(235, 194, 199);
+            overflow: hidden;
+            padding-top: 5px;
+            padding-bottom: 8px;
+        }
+        
+        .box .nav ul li {
+            float: left;
+            width: 66px;
+            height: 66px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .box .nav ul li img {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            border: 3px solid transparent;
+        }
+        
+        .box .nav ul li img.active {
+            border: 3px solid skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="gif/05.gif" class="bigImg">
+        <!-- .nav导航层 -->
+        <div class="nav">
+            <ul>
+                <li><img src="gif/01.gif" class="active" /></li>
+                <li><img src="gif/02.gif" /></li>
+                <li><img src="gif/03.gif" /></li>
+                <li><img src="gif/04.gif" /></li>
+                <li><img src="gif/05.gif" /></li>
+                <li><img src="gif/06.gif" /></li>
+                <li><img src="gif/07.gif" /></li>
+                <li><img src="gif/08.gif" /></li>
+                <li><img src="gif/09.gif" /></li>
+                <li><img src="gif/10.gif" /></li>
+                <li><img src="gif/11.gif" /></li>
+                <li><img src="gif/12.gif" /></li>
+                <li><img src="gif/13.gif" /></li>
+                <li><img src="gif/14.gif" /></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var navImgs = document.querySelectorAll(".nav ul li img");
+        var bigImg = document.querySelector(".bigImg");
+
+        for (var i = 0; i < navImgs.length; i++) {
+            navImgs[i].onmouseover = function() {
+                bigImg.src = this.src;
+                // 排他
+                for (var j = 0; j < navImgs.length; j++) {
+                    navImgs[j].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        img {
+            vertical-align: bottom;
+        }
+        
+        .banner {
+            width: 820px;
+            margin: 50px auto;
+        }
+        
+        .banner .banner_img {
+            width: 820px;
+            height: 340px;
+            overflow: hidden;
+        }
+        
+        .banner .banner_img ul {
+            width: 500%;
+            overflow: hidden;
+            margin-left: 0px;
+        }
+        
+        .banner .banner_img ul li {
+            float: left;
+        }
+        
+        .banner nav {
+            height: 40px;
+            background: #e3e2e2;
+        }
+        
+        .banner nav ul li {
+            width: 164px;
+            float: left;
+            height: 38px;
+            text-align: center;
+            line-height: 38px;
+            border-bottom: 2px solid transparent;
+            color: #424242;
+            font-size: 12px;
+        }
+        
+        .banner nav ul li.active {
+            color: #b28e66;
+            background: #f7f6f6;
+            border-bottom: 2px solid #cea861;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner_img">
+            <ul>
+                <li>
+                    <a href="#"><img src="images/5.jpeg" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/6.jpeg" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/7.jpeg" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/8.jpeg" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/9.jpeg" /></a>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="btn">
+                <li class="active">源计划：阴 劫 至臻</li>
+                <li>光明初现</li>
+                <li>LPL今日赛程</li>
+                <li>大魔王的宝藏</li>
+                <li>K/DA阿狸雕塑预定</li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        var timer = null;
+        var num = 0;
+        // nav鼠标移上事件
+        $(".btn li").mouseover(function() {
+                var index = $(this).index();
+                var lf = -820 * index;
+                $(this).addClass("active").siblings("li").removeClass("active");
+                $(".banner_img ul").stop().animate({
+                    "margin-left": lf
+                });
+            })
+            // 自动轮播
+        function autoPlay() {
+            window.clearInterval(timer);
+            timer = setInterval(function() {
+                num++;
+                num = num % $("nav ul li").length;
+                $(".btn li").eq(num).addClass("active").siblings("li").removeClass("active");
+                $(".banner_img ul").stop().animate({
+                    "marginLeft": -820 * num
+                });
+            }, 2000)
+        }
+        // 停止自动轮播
+        function stopPlay() {
+            window.clearInterval(timer);
+        }
+
+        // 调用自动轮播
+        autoPlay();
+
+        // banner鼠标移上移出事件
+        $(".banner").hover(function() {
+            stopPlay();
+        }, function() {
+            autoPlay();
+        })
+    </script>
+</body>
+
+</html>

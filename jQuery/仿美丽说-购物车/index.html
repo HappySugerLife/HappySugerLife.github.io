@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>购物车-美丽说</title>
+    <meta name="description" content="彷美丽说" />
+    <meta name="keywords" content="彷美丽说" />
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- 引入css 初始化的文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入car css -->
+    <link rel="stylesheet" href="css/car.css">
+    <!-- 引入jquery文件 -->
+    <script src="js/jquery.min.js"></script>
+    <style>
+        .payment {
+            width: 300px;
+            text-align: center;
+            position: fixed;
+            left: 40%;
+            top: 120px;
+            font-size: 50px;
+            display: none;
+        }
+        
+        .payment p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        /* 图片自适应 */
+        
+        .payment img {
+            vertical-align: bottom;
+            display: inline-block;
+            height: auto;
+            max-width: 100%;
+        }
+        
+        .payment button {
+            background-color: transparent;
+            border: none;
+            font-size: 18px;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="c-container">
+        <div class="w">
+            <div class="cart-filter-bar">
+                <em>全部商品</em>
+            </div>
+            <!-- 购物车主要核心区域 -->
+            <div class="cart-warp">
+                <!-- 头部全选模块 -->
+                <div class="cart-thead">
+                    <div class="t-checkbox">
+                        <input type="checkbox" class="checkall"> 全选
+                    </div>
+                    <div class="t-goods">商品</div>
+                    <div class="t-price">单价</div>
+                    <div class="t-num">数量</div>
+                    <div class="t-sum">小计</div>
+                    <div class="t-action">操作</div>
+                </div>
+                <!-- 商品详细模块 -->
+                <div class="cart-item-list">
+                    <div class="cart-item check-cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" checked class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="images/goods01.png">
+                            </div>
+                            <div class="p-msg">小清新新款韩版气质收腰显瘦百搭蕾丝边V领木耳边镂空休闲连衣裙</div>
+                        </div>
+                        <div class="p-price">￥72.60</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:void(0);" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:void(0);" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥72.60</div>
+                        <div class="p-action"><a href="javascript:void(0);">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="images/goods02.png">
+                            </div>
+                            <div class="p-msg">小个子韩版春夏新款小清新荷叶边中长款v领碎花雪纺吊带连衣裙</div>
+                        </div>
+                        <div class="p-price">￥84.80</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:void(0);" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:void(0);" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥84.80</div>
+                        <div class="p-action"><a href="javascript:void(0);">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="images/goods03.png">
+                            </div>
+                            <div class="p-msg">夏季新款名媛气质吊带碎花连衣裙露肩波西米亚度假长裙甜美沙滩裙</div>
+                        </div>
+                        <div class="p-price">￥69.80</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:void(0);" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:void(0);" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">￥69.80</div>
+                        <div class="p-action"><a href="javascript:void(0);">删除</a></div>
+                    </div>
+                </div>
+
+                <!-- 结算模块 -->
+                <div class="cart-floatbar">
+                    <div class="select-all">
+                        <input type="checkbox" class="checkall">全选
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:void(0);" class="remove-batch"> 删除选中的商品</a>
+                        <a href="javascript:void(0);" class="clear-all">清理购物车</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="amount-sum">已经选<em>1</em>件商品</div>
+                        <div class="price-sum">总价： <em>￥72.60</em></div>
+                        <div class="btn-area">去结算</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment">
+            <button>x</button>
+            <span>谢谢惠顾</span>
+            <p>您需支付<em>1</em></p>
+            <p>请扫描二维码支付商品</p>
+            <img src="images/jQuery.png" alt="jq手册">
+        </div>
+    </div>
+    <script>
+        // 高亮函数
+        function highLight() {
+            $(".j-checkbox").each(function(index, domElement) {
+                if (domElement.checked) {
+                    $(domElement).parents(".cart-item").addClass("check-cart-item");
+                } else {
+                    $(domElement).parents(".cart-item").removeClass("check-cart-item");
+                }
+            })
+        }
+        // 总价函数
+        function totalValue() {
+            var sumNum = 0;
+            var sumTotal = 0;
+            $(".j-checkbox:checked").each(function(index, domElement) {
+                var subNum = $(domElement).parents(".cart-item").find(".itxt").val();
+                sumNum += Number(subNum);
+                var subTotal = $(domElement).parents(".cart-item").find(".p-sum").text().substr(1);
+                sumTotal += Number(subTotal);
+            });
+            $(".amount-sum em").text(sumNum);
+            $(".price-sum em").text("￥" + sumTotal.toFixed(2));
+        }
+        // 判断是否是数字函数
+        function isNumber(val) {
+            var regPos = /^\d+(\.\d+)?$/; // 非负浮点数
+            var regNeg = /^(-(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)))$/; // 负浮点数
+            if (regPos.test(val) || regNeg.test(val) || val == "") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        // 全选
+        $(".checkall").on("click", function() {
+            $(".j-checkbox,.checkall").prop("checked", $(this).prop("checked"));
+            highLight();
+            totalValue();
+        });
+
+        // 单选
+        $(".j-checkbox").on("click", function() {
+            var ckedNum = $(".j-checkbox:checked").length;
+            var ckbxNum = $(".j-checkbox").length;
+            $(".checkall").prop("checked", ckedNum == ckbxNum);
+            highLight();
+            totalValue();
+        });
+
+        // 删除某个商品
+        $(".p-action a").on("click", function() {
+            $(this).parents(".cart-item").remove();
+            if ($(".j-checkbox").length == 0) {
+                $(".checkall").prop("checked", false);
+            }
+            totalValue();
+        });
+
+        // 删除选中的商品 
+        $(".remove-batch").on("click", function() {
+            $(".j-checkbox:checked").parents(".cart-item").remove();
+            $(".checkall").prop("checked", false);
+            totalValue();
+        });
+
+        // 清空购物车
+        $(".clear-all").on("click", function() {
+            $(".cart-item-list").empty();
+            $(".checkall").prop("checked", false);
+            totalValue();
+        });
+        // 增加商品数量
+        $(".increment").on("click", function() {
+            // 当前商品数量
+            var currentNum = $(this).siblings(".itxt").val();
+            currentNum++;
+            $(this).siblings(".itxt").val(currentNum);
+            var currentPrice = $(this).parents(".cart-item").find(".p-price").text().substr(1);
+            var subTotal = currentPrice * currentNum;
+            $(this).parents(".cart-item").find(".p-sum").text("￥" + subTotal.toFixed(2));
+            totalValue();
+        });
+
+        // 减少商品数量
+        $(".decrement").on("click", function() {
+            var currentNum = $(this).siblings(".itxt").val();
+            if (currentNum == 1) {
+                return;
+            }
+            currentNum--;
+            $(this).siblings(".itxt").val(currentNum);
+            var currentPrice = $(this).parents(".cart-item").find(".p-price").text().substr(1);
+            var subTotal = currentPrice * currentNum;
+            $(this).parents(".cart-item").find(".p-sum").text("￥" + subTotal.toFixed(2));
+            totalValue();
+        });
+
+        // 键盘输入商品数量
+        $(".itxt").keyup(function() {
+            var currentNum = $(this).val();
+            // 光标移到数字前输入负号判断负数通过，需要的判断不通过，更改判断数字函数（删除负数判断，只能非负数和""通过）
+            if (!isNumber(currentNum)) {
+                alert("请输入数字！！！");
+                $(this).val(1);
+                return;
+            }
+            var currentPrice = $(this).parents(".cart-item").find(".p-price").text().substr(1);
+            var subTotal = currentPrice * currentNum;
+            $(this).parents(".cart-item").find(".p-sum").text("￥" + subTotal.toFixed(2));
+            totalValue();
+        });
+        // 支付弹窗
+        $(".btn-area").on("click", function() {
+            totalValue();
+            $(".payment p em").text($(".price-sum em").text());
+            $(".payment").fadeIn();
+        })
+        $(".payment button").on("click", function() {
+            $(".payment").fadeOut();
+        })
+    </script>
+</body>
+
+</html>

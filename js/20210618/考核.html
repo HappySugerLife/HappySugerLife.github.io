@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 第一
+        function demo() {
+            var a = arguments[0];
+            var b = arguments[0];
+            var c = arguments[0];
+            var d = arguments[0];
+            for (var i = 1; i < arguments.length; i++) {
+                a = a + arguments[i];
+                b = b - arguments[i];
+                c = c * arguments[i];
+                d = d / arguments[i];
+            }
+            document.write(`和为：${a}，差为：${b}，积为：${c}，商为：${d}。<br><hr>`)
+        }
+        demo(1, 2, 3, 4)
+        demo(10, 2, 5, 9, 6)
+            // 第二
+        function fn(a, b) {
+            var d = [];
+            for (var i = a; i <= b; i++) {
+                for (var j = a; j <= b; j++) {
+                    var sum = "" + i + j;
+                    if (sum % 2 == 1) {
+                        if (i !== j) {
+                            d += sum + " ,";
+                        }
+                    }
+                }
+            }
+            document.write(d + "<br><hr>");
+        }
+        fn(0, 3)
+        fn(2, 5)
+        fn(1, 4)
+            // 第三
+            // 范围随机数
+        function random(max, min) {
+            return Math.round(Math.random() * (max - min) + min);
+        }
+
+        function randomStr() { //封装，以便日后使用。
+            //创建一个空字符，用于存放随机数/字母
+            var strData = "";
+            //生成随机字符库 (验证码四位，随机数三种，取公倍数12,所以循环4次。也可以是120次，1200次。)
+            for (var i = 0; i < 4; i++) {
+                var num = random(0, 9); //生成0-9的随机数
+                var az = String.fromCharCode(random(97, 122)); //生成a-z
+                var AZ = String.fromCharCode(random(65, 90)); //生成A-Z
+
+                strData = strData + num + az + AZ; //将生成的字符进行字符串拼接
+
+            }
+            // 开始真正的随机(从随机字符库中随机取出四个)
+            var str = "";
+            for (var i = 0; i < 4; i++) {
+                str += strData[random(0, strData.length - 1)]
+            }
+            // console.log(str)
+            return str;
+        }
+        document.write(randomStr() + "<br><hr>");
+        // 第四
+        //封装函数,找出数组 arr 中重复出现过的元素.        
+        function duplicates1(arr) {
+            arr.sort(function(n, m) {
+                return n - m;
+            });
+            var subArr = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == arr[i + 1]) {
+                    subArr.push(arr[i]);
+                }
+            }
+
+            subArr.sort(function(n, m) {
+                return n - m;
+            });
+
+            for (var i = 0; i < subArr.length; i++) {
+                if (subArr[i] === subArr[i + 1]) {
+                    subArr.splice(i, 1);
+                    i--;
+                }
+            }
+            if (subArr == "") {
+                return "没有重复的数组";
+            }
+            return subArr;
+        }
+
+        function duplicates2(arr) {
+            var result = [];
+            arr.forEach(function(item) {
+                if (arr.indexOf(item) != arr.lastIndexOf(item) && result.indexOf(item) == -1)
+                    result.push(item);
+            })
+            if (result == "") {
+                return "没有重复的数组";
+            }
+            return result;
+        }
+        document.write("原数组为：[1, 2, 4, 4, 3, 3, 1, 5, 3]  重复的数组元素为：" + duplicates1([1, 2, 4, 4, 3, 3, 1, 5, 3]) + "<br><hr>")
+        document.write("原数组为：[1, 2, 4, 4, 3, 3, 1, 5, 3]  重复的数组元素为：" + duplicates2([1, 2, 4, 4, 3, 3, 1, 5, 3]) + "<br><hr>")
+        document.write("原数组为：[1, 2, 3, 4]   重复的数组元素为： " + duplicates1([1, 2, 3, 4]) + "<br><hr>")
+        document.write("原数组为：[1, 2, 3, 4]   重复的数组元素为： " + duplicates2([1, 2, 3, 4]) + "<br><hr>")
+    </script>
+</body>
+
+</html>

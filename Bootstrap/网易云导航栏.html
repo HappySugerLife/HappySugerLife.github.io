@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+        .mynav {
+            background: #242424;
+            padding: 0;
+            height: 70px;
+        }
+        
+        .mynav .navbar-brand {
+            background: url(images/topbar.png) no-repeat 0px 0px;
+            width: 157px;
+            height: 70px;
+        }
+        
+        .mynav .nav-item .nav-link {
+            color: #CCCCCC;
+            font-size: 14px;
+            height: 70px;
+            padding: 0 20px;
+            line-height: 70px;
+            position: relative;
+        }
+        
+        .mynav .navbar-nav .active>.nav-link {
+            color: white;
+            background: #000000;
+        }
+        
+        .mynav .navbar-nav .nav-link:hover,
+        .mynav .navbar-nav .nav-link:focus {
+            color: white;
+            background: #000000;
+        }
+        
+        .mynav .navbar-nav .nav-triangle {
+            background: url("images/topbar.png") no-repeat -226px 0;
+            width: 12px;
+            height: 6px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -6px;
+        }
+        
+        .mynav .navbar-nav .nav-hot {
+            background: url("images/topbar.png") no-repeat -192px 0;
+            width: 26px;
+            height: 13px;
+            position: absolute;
+            top: 13px;
+            right: -15px;
+        }
+        
+        .mynav .form-control {
+            width: 161px;
+            color: #9B9B9B;
+            font-weight: 100;
+            font-size: 12px;
+            padding-left: 25px;
+        }
+        
+        .mynav .form-inline {
+            position: relative;
+        }
+        
+        .mynav .form-inline .nav-zoom {
+            position: absolute;
+            left: 10px;
+            top: 12px;
+            background: url(images/topbar.png) -10px -108px;
+            width: 13px;
+            height: 14px;
+        }
+        
+        .mynav .form-inline .btn {
+            border: 1px solid #393939;
+            color: #CCCCCC;
+            font-size: 13px;
+            margin-left: 10px;
+            outline: none !important;
+        }
+        
+        .mynav .form-inline .nav-register {
+            font-size: 12px;
+            color: #898181;
+            margin-left: 20px;
+        }
+        
+        .mynav .collapse {
+            background: #242424;
+        }
+        
+        .mynav .navbar-toggler:focus {
+            outline: none;
+        }
+        
+        .mynav .navbar-toggler {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light mynav">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">发现音乐
+                            <div class="nav-triangle d-none d-xl-block"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">我的音乐</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">朋友</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">商城</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">音乐人</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">下载客户端
+                            <div class="nav-hot d-none d-xl-block"></div>
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="nav-zoom d-none d-xl-block"></div>
+                    <input class="form-control mr-sm-2 rounded-pill d-none d-xl-block" type="search" placeholder="音乐/视频/电台/用户" aria-label="Search">
+                    <button class="btn rounded-pill d-none d-xl-block" type="submit">创作者中心</button>
+                    <a href="#" class="nav-register">登录</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        select {
+            width: 200px;
+            height: 300px;
+            font-size: 22px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <p>按住ctrl键加鼠标左键点击,可以同时选择多个</p>
+    <select name="" id="sel1" size="4" multiple>
+        <option value="香蕉">香蕉</option>
+        <option value="大鸭梨">大鸭梨</option>
+        <option value="苹果">苹果</option>
+        <option value="大西瓜">大西瓜</option>
+    </select>
+
+    <button>&gt;&gt;&gt;</button>
+    <button>&lt;&lt;&lt;</button>
+    <button>&gt;</button>
+    <button>&lt;</button>
+
+    <select name="" id="sel2" size="4" multiple></select>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $("button").eq(0).on("click", function() {
+            // 把右边的内容追加到左边
+            $("#sel2").append($("#sel1 option"));
+            // 取消选中状态
+            $("#sel2 :selected").prop("selected", false);
+        });
+
+        $("button").eq(1).on("click", function() {
+            $("#sel1").append($("#sel2 option"));
+            $("#sel1 :selected").prop("selected", false);
+        });
+
+        $("button").eq(2).on("click", function() {
+            $("#sel2").append($("#sel1 :selected"));
+            $("#sel2 :selected").prop("selected", false);
+        });
+
+        $("button").eq(3).on("click", function() {
+            $("#sel1").append($("#sel2 :selected"));
+            $("#sel1 :selected").prop("selected", false);
+        });
+    </script>
+</body>
+
+</html>

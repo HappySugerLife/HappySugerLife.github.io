@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            vertical-align: bottom;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .box {
+            width: 1000px;
+            margin: 100px auto;
+            position: relative;
+        }
+        
+        .box .small_box {
+            width: 450px;
+            height: 450px;
+            border: 1px solid #eeeeee;
+            position: relative;
+        }
+        
+        .box .small_box .mask {
+            width: 300px;
+            height: 300px;
+            background: #fede4f;
+            opacity: 0.5;
+            position: absolute;
+            left: 0;
+            top: 0;
+            cursor: move;
+            display: none;
+        }
+        
+        .box .list {
+            margin-top: 20px;
+        }
+        
+        .box .list ul li {
+            width: 58px;
+            height: 58px;
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .box .list ul li img {
+            width: 54px;
+            height: 54px;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+        
+        .box .list ul li img.active {
+            border: 2px solid red;
+        }
+        
+        .box .big_box {
+            width: 540px;
+            height: 540px;
+            position: absolute;
+            left: 451px;
+            top: 0;
+            border: 1px solid #eeeeee;
+            overflow: hidden;
+            display: none;
+        }
+        
+        .box .big_box .big_img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <!-- 左侧小图片盒子 -->
+        <div class="small_box">
+            <img src="images/1_middle.jpg" class="middle_img" />
+            <!-- 遮罩层 -->
+            <div class="mask"></div>
+        </div>
+
+        <!-- 列表选项卡 -->
+        <div class="list">
+            <ul>
+                <li><img src="images/1_small.jpg" class="active" /></li>
+                <li><img src="images/2_small.jpg" /></li>
+                <li><img src="images/3_small.jpg" /></li>
+                <li><img src="images/4_small.jpg" /></li>
+                <li><img src="images/5_small.jpg" /></li>
+                <li><img src="images/6_small.jpg" /></li>
+            </ul>
+        </div>
+
+        <!-- 右侧大盒子 -->
+        <div class="big_box">
+            <img src="images/1_big.jpg" class="big_img" />
+        </div>
+
+    </div>
+
+    <script>
+        // 获取相关对象
+        var small_box = document.querySelector(".small_box");
+        var mask = document.querySelector(".mask");
+        var big_box = document.querySelector(".big_box");
+        var big_img = document.querySelector(".big_img");
+        var middle_img = document.querySelector(".middle_img");
+        var box = document.querySelector(".box");
+
+        // 1. 鼠标移上.small_box以后,显示.mask遮罩层和右侧大盒子.big_box
+        small_box.onmouseover = function() {
+                mask.style.display = "block";
+                big_box.style.display = "block";
+            }
+            // 2. 鼠标移走.small_box以后,隐藏.mask遮罩层和右侧大盒子.big_box
+        small_box.onmouseout = function() {
+                mask.style.display = "none";
+                big_box.style.display = "none";
+            }
+            // 3. .mask遮罩层跟随鼠标在.small_box盒子移动
+        small_box.onmousemove = function(e) {
+            // 获取鼠标在.small_box盒子里面的坐标
+            var moveX = e.pageX - box.offsetLeft;
+            var moveY = e.pageY - box.offsetTop;
+
+            moveX = moveX - mask.offsetWidth / 2;
+            moveY = moveY - mask.offsetHeight / 2;
+
+            // 左右边界判断
+            if (moveX < 0) {
+                moveX = 0;
+            } else if (moveX > small_box.offsetWidth - mask.offsetWidth) {
+                moveX = small_box.offsetWidth - mask.offsetWidth;
+            }
+
+            // 上下边界判断
+            if (moveY < 0) {
+                moveY = 0;
+            } else if (moveY > small_box.offsetHeight - mask.offsetHeight) {
+                moveY = small_box.offsetHeight - mask.offsetHeight;
+            }
+
+            // 设置遮罩层的偏移量
+            mask.style.left = moveX + "px";
+            mask.style.top = moveY + "px";
+
+            // 4. 右侧大盒子的大图要跟根据一定的比例,跟随遮罩层移动
+            var bigMoveX = (moveX * (big_img.offsetWidth - big_box.offsetWidth)) / (small_box.offsetWidth - mask.offsetWidth);
+            var bigMoveY = (moveY * (big_img.offsetHeight - big_box.offsetHeight)) / (small_box.offsetHeight - mask.offsetHeight);
+            console.log(bigMoveX, bigMoveY);
+            // 设置big_img的偏移量
+            big_img.style.left = -bigMoveX + "px";
+            big_img.style.top = -bigMoveY + "px";
+        }
+
+        // 5. 点击.list里面的img可以切换中图和大图
+        var listImgs = document.querySelectorAll(".list ul li img");
+        for (var i = 0; i < listImgs.length; i++) {
+            listImgs[i].onmouseover = function() {
+                for (var j = 0; j < listImgs.length; j++) {
+                    listImgs[j].classList.remove("active");
+                }
+                this.classList.add("active");
+
+                // 获取当前小图片的路径
+                var currentSmallSrc = this.src;
+                // 设置中图片路径
+                middle_img.src = currentSmallSrc.replace("small", "middle");
+                // 设置大图片路径
+                big_img.src = currentSmallSrc.replace("small", "big");
+            }
+        }
+    </script>
+</body>
+
+</html>

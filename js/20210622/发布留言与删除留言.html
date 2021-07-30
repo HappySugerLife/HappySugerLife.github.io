@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            margin-top: 100px;
+            margin-left: 500px;
+        }
+        
+        textarea {
+            resize: none;
+            border: 1px solid pink;
+            outline: none;
+            width: 300px;
+            height: 150px;
+        }
+        
+        ul li {
+            width: 350px;
+            background: #f5d1f3;
+            color: red;
+            height: 30px;
+            line-height: 30px;
+            text-indent: 5px;
+            margin-bottom: 5px;
+        }
+        
+        ul li a {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 文本域,多行文本框 -->
+        <textarea></textarea>
+        <button>发布</button>
+
+        <ul>
+
+        </ul>
+    </div>
+
+    <script>
+        // 获取相关对象
+        var btn = document.querySelector("button");
+        var textarea = document.querySelector("textarea");
+        var ul = document.querySelector("ul");
+
+        // 给按钮绑定单击事件
+        btn.onclick = function() {
+            // 获取文本域内容
+            var content = textarea.value;
+            if (content == "") {
+                alert("请输入内容以后再添加");
+                return;
+            }
+
+            // 创建li标签
+            var newLi = document.createElement("li");
+            newLi.innerHTML = content + '<a href="javascript:void(0)">删除</a>';
+            // 把newLi追加到ul中
+            ul.appendChild(newLi);
+            // 清空文本域的值
+            textarea.value = "";
+
+            // 获取页面中所有a标签
+            var aLinks = document.querySelectorAll("a");
+            // 循环遍历给每个a标签绑定鼠标点击事件
+            for (var i = 0; i < aLinks.length; i++) {
+                aLinks[i].onclick = function() {
+                    this.parentNode.remove();
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

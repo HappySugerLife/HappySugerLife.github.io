@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            vertical-align: bottom;
+            display: inline-block;
+            height: auto;
+            max-width: 100%;
+        }
+        
+        .box {
+            width: 1000px;
+            margin: 100px auto;
+        }
+        
+        .box1 {
+            position: relative;
+            float: left;
+            width: 255px;
+            height: 300px;
+        }
+        
+        .box2 {
+            margin-top: 20px;
+            text-align: center;
+            position: absolute;
+            top: 43px;
+            left: 83px;
+        }
+        
+        .box2-1 {
+            margin-top: 20px;
+            text-align: center;
+            position: absolute;
+            top: 43px;
+            left: 83px;
+        }
+        
+        .box2-2 {
+            margin-top: 20px;
+            text-align: center;
+            position: absolute;
+            top: 43px;
+            left: 83px;
+        }
+        
+        .box3 {
+            margin-top: 50px;
+            margin-left: 22px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+        
+        .box3 .pc1 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .box3 .pc2 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: -459px;
+        }
+        
+        .box3 .pc3 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .box3 .pc4 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .box3 .pc5 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: -445px;
+            z-index: 1;
+        }
+        
+        .box3 .pc6 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .box3 .pc7 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .box3 .pc8 {
+            width: 600px;
+            position: absolute;
+            top: 0;
+            left: -430px;
+            z-index: 1;
+        }
+        
+        .box3 .pc9 {
+            width: 600px;
+            position: absolute;
+            top: 5px;
+            left: -257px;
+        }
+        
+        .box1:hover.box1 {
+            transform: scale(1.1);
+        }
+        /* 文字 */
+        
+        .box1:hover.box1 .box2 {
+            transition: all 0.1s linear;
+            top: 0;
+        }
+        
+        .box1:hover.box1 .box2-1 {
+            transition: all 0.1s linear;
+            top: 0;
+        }
+        
+        .box1:hover.box1 .box2-2 {
+            transition: all 0.1s linear;
+            top: 0;
+        }
+        /* 1 */
+        
+        .box1:hover.box1 .box3 .pc1 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc2 {
+            left: 0;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc3 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+        /* 2 */
+        
+        .box1:hover.box1 .box3 .pc4 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc5 {
+            left: -125px;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc6 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+        /* 3 */
+        
+        .box1:hover.box1 .box3 .pc7 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc8 {
+            left: -80px;
+            transition: all 5s linear;
+        }
+        
+        .box1:hover.box1 .box3 .pc9 {
+            left: -400px;
+            transition: all 5s linear;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="box2">背景视觉</div>
+            <div class="box3">
+                <div class="pc1"> <img src="images/pc1.png"> </div>
+                <div class="pc2"> <img src="images/hc.png"> </div>
+                <div class="pc3"> <img src="images/pc3.png"> </div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="box2-1">背景视觉</div>
+            <div class="box3">
+                <div class="pc4"> <img src="images/pc4.png"> </div>
+                <div class="pc5"> <img src="images/db.png"> </div>
+                <div class="pc6"> <img src="images/pc5.png"> </div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="box2-2">背景视觉</div>
+            <div class="box3">
+                <div class="pc7"> <img src="images/pc7.png"> </div>
+                <div class="pc8"> <img src="images/fj.png"> </div>
+                <div class="pc9"> <img src="images/pc8.png"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

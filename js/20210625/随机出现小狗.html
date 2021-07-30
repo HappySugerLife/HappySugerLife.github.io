@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        
+        img {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+        // 开启定时器
+        setInterval(function() {
+            // 创建img标签
+            var dogImg = document.createElement("img");
+            // 设置img标签的src属性
+            dogImg.src = "./images/dog.png";
+            // 设置img标签的随机宽度 最小宽度为20,最大宽度为228  
+            dogImg.width = getRandom(20, 228);
+            // 设置img标签的随机位置
+            dogImg.style.left = getRandom(0, window.innerWidth - dogImg.width) + "px";
+            dogImg.style.top = getRandom(0, window.innerHeight - dogImg.width) + "px";
+            // 把图片添加到body中
+            document.body.appendChild(dogImg);
+
+            // 给图片绑定点击事件
+            dogImg.onclick = function() {
+                this.remove();
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
