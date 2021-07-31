@@ -56,6 +56,8 @@
     display: flex;
     justify-content: flex-start;
     margin-left: 156px;
+    font-weight: normal;
+    color: grey;
 }
 
 .search .top>div:nth-child(1) {
