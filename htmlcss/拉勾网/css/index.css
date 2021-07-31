@@ -1,0 +1,87 @@
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #00B38A;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.top {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.tencont {
+    width: 610px;
+    height: 340px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    background-color: #E6FFFE;
+    display: flex;
+}
+
+.tencont .left {
+    width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.tencont .left .a {
+    display: flex;
+}
+
+.tencont .left .b {
+    display: flex;
+}
+
+.tencont .left .b>img {
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+}
+
+.tencont .left .a .title {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 4px;
+    background-color: white;
+}
+
+.tencont .left>input {
+    width: 300px;
+    height: 40px;
+    margin-top: 18px;
+    border: none;
+}
+
+.tencont .left>input:last-child {
+    width: 155px;
+    height: 45px;
+    background-color: #00BC8C;
+    color: white;
+    letter-spacing: 20px;
+    text-indent: 15px;
+}
+
+.tencont .left .b>p>span {
+    color: #00B38A;
+}
+
+.tencont .ritght {
+    width: 200px;
+    border: 1px dotted;
+    border-width: 0 0 0 1px;
+    padding-left: 30px;
+    color: #A4A8A8;
+}
+
+.tencont .ritght>p {
+    margin-top: 45px;
+}
