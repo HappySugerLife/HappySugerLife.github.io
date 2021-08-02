@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            vertical-align: bottom;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        
+        .box {
+            width: 1172px;
+            margin: 30px auto;
+            position: relative;
+            border: 1px solid rgb(161, 153, 153);
+            border-radius: 20px;
+        }
+        
+        .box .item {
+            width: 220px;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .box .item a {
+            display: block;
+            padding-bottom: 10px;
+        }
+        
+        .box .item a:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .box .item .pro_img {
+            width: 100%;
+        }
+        
+        .box .item .desc {
+            padding-left: 17px;
+            padding-right: 41px;
+            font-size: 14px;
+            margin-top: 19px;
+            margin-bottom: 15px;
+        }
+        
+        .box .user_info {
+            padding-left: 15px;
+            padding-right: 17px;
+            height: 28px;
+        }
+        
+        .box .user_info .user_pic {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+        
+        .box .user_info .user_name {
+            font-size: 12px;
+            color: #555555;
+        }
+        
+        .box .user_info .heart_box {
+            float: right;
+        }
+        
+        .box .user_info .heart_box .heart {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+        }
+        
+        .box .user_info .heart_box .num {
+            font-size: 12px;
+            color: #555555;
+        }
+        
+        .more {
+            color: #ff2741;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/01.jpg" class="pro_img" />
+                <div class="desc">拥有一台宾利GT，如何拍，才不会被说炫富？</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/01.jpg" class="user_pic" />
+                    <span class="user_name">金英焕</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">104</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/02.jpg" class="pro_img" />
+                <div class="desc">🛁清凉一夏，宝宝用的这些东西你🉐知道…</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/02.jpg" class="user_pic" />
+                    <span class="user_name">我是牛油果呀呀</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">112</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/03.jpg" class="pro_img" />
+                <div class="desc">这些超火的动漫台词你绝对都有听过</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/03.jpg" class="user_pic" />
+                    <span class="user_name">学说日语</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">305</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/04.jpg" class="pro_img" />
+                <div class="desc">高段位的科学育儿理念！原来是它～</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/04.jpg" class="user_pic" />
+                    <span class="user_name">小迷姐儿是豆豆龙</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">101</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/05.jpg" class="pro_img" />
+                <div class="desc">没想到因为婴儿推车，我居然被孩子爸夸了…</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/05.jpg" class="user_pic" />
+                    <span class="user_name">我是牛油果呀呀</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">164</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/06.jpg" class="pro_img" />
+                <div class="desc">日常vlog｜妈妈、博主，每天身份转换</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/06.jpg" class="user_pic" />
+                    <span class="user_name">木夕_木</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">976</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#">
+                <img src="images/pic/07.jpg" class="pro_img" />
+                <div class="desc">这个食谱摆摊能不能赚到学费大家帮忙参考一下😂</div>
+                <div class="user_info">
+
+                    <img src="images/touxiang/07.jpg" class="user_pic" />
+                    <span class="user_name">彭雨荷baby</span>
+
+                    <div class="heart_box">
+                        <img src="images/heart.png" class="heart" />
+                        <span class="num">1373</span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="more">查看更多</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        // 封装一个函数求出指定数组的最小值和最小索引号
+        function getArrMin(arr) {
+            var minIndex = 0;
+            var minVal = arr[minIndex];
+            for (var i = 1; i < arr.length; i++) {
+                if (minVal > arr[i]) { // 判断大小
+                    minVal = arr[i]; // 成为新的最小值
+                    minIndex = i;
+                }
+            }
+            return {
+                minIndex: minIndex,
+                minVal: minVal
+            }
+        }
+
+
+        // 项目之间的间隔距离
+        var gap = 18;
+        // 项目的宽度
+        var itemWidth = $(".item").width(); // 220
+        // 最大列数
+        var maxColumn = Math.floor($(".box").width() / (itemWidth)); // 5
+
+        // 封装一个瀑布流函数
+        function waterfallFlow() {
+            // 定义一个数组,保存所有列的总高度
+            var arrHeight = [];
+
+            // 遍历所有.item
+            $(".box .item").each(function(index, domElement) {
+                if (index < maxColumn) { // 如果是第一行
+                    $(domElement).css({
+                        top: 0,
+                        left: (itemWidth + gap) * index
+                    });
+                    // 把第一列的高度放进arrHeight数组中
+                    arrHeight.push($(domElement).height())
+                } else { // 第一行之外的其他行
+                    // 因为图片是一种需要花费时间加载的资源,所以我们不能马上就去获取图片的高度值
+                    // 需要等图片加载完毕以后再获取
+                    // 开启一个延时器,假设一个时间,让图片有时间可以加载
+                    setTimeout(function() {
+                        // 求出所有列的总高度,再求出所有列总高度最小,以及当前列对应的索引号
+                        var minObj = getArrMin(arrHeight);
+                        // 最小列序号
+                        var minIndex = minObj.minIndex;
+                        // 最小列高度
+                        var minVal = minObj.minVal;
+                        $(domElement).css({
+                            top: minVal + gap,
+                            left: (itemWidth + gap) * minIndex
+                        });
+                        // 更新列高度
+                        arrHeight[minIndex] = minVal + gap + $(domElement).height();
+                    }, 200)
+                }
+            });
+
+            setTimeout(function() {
+                // 因为.box里面的所有.item都是绝对定位,他们都脱标了,导致了.box没有高度,但是.box又不是设置一个固定的高度,.box的高度需要计算
+                // .box的高度,就是最大列的总高度
+                var maxHeight = Math.max.apply(null, arrHeight);
+                // 设置.box的高度
+                $(".box").height(maxHeight);
+            }, 300);
+
+        }
+
+        // 调用一次瀑布流函数
+        waterfallFlow();
+
+        // 定义数据
+        var data = [{
+                "imgNum": "01",
+                "desc": "拥有一台宾利GT，如何拍，才不会被说炫富？",
+                "username": "金英焕",
+                "num": 102
+            }, {
+                "imgNum": "02",
+                "desc": "🛁清凉一夏，宝宝用的这些东西你🉐知道…",
+                "username": "我是牛油果呀呀",
+                "num": 112
+            }, {
+                "imgNum": "03",
+                "desc": "这些超火的动漫台词你绝对都有听过",
+                "username": "学说日语",
+                "num": 305
+            }, {
+                "imgNum": "04",
+                "desc": "高段位的科学育儿理念！原来是它～",
+                "username": "小迷姐儿是豆豆龙",
+                "num": 101
+            }, {
+                "imgNum": "05",
+                "desc": "没想到因为婴儿推车，我居然被孩子爸夸了…",
+                "username": "我是牛油果呀呀",
+                "num": 164
+            }, {
+                "imgNum": "06",
+                "desc": "日常vlog｜妈妈、博主，每天身份转换",
+                "username": "木夕_木",
+                "num": 976
+            }, {
+                "imgNum": "07",
+                "desc": "这个食谱摆摊能不能赚到学费大家帮忙参考一下😂",
+                "username": "彭雨荷baby",
+                "num": 1373
+            }, {
+                "imgNum": "08",
+                "desc": "和油污蟑螂say byebye｜厨房清洁好物分享",
+                "username": "Cikoe",
+                "num": 60
+            }, {
+                "imgNum": "09",
+                "desc": "上街超惹眼宏光MINI EV，市区代步车性价高",
+                "username": "一颗小甜欣",
+                "num": 80
+            }, {
+                "imgNum": "10",
+                "desc": "📢快开学了！！！再不准备就晚了✅",
+                "username": "我叫小豆浆",
+                "num": 261
+            },
+
+
+            {
+                "imgNum": "11",
+                "desc": "莆田探店｜时雾美术馆",
+                "username": "iamlittley",
+                "num": 43
+            }, {
+                "imgNum": "12",
+                "desc": "参加活动遇到喜欢博主 瞬间变成小迷妹",
+                "username": "Chili徐辣儿",
+                "num": 112
+            }, {
+                "imgNum": "13",
+                "desc": "学习干货📖各科笔记记什么，不看后悔✓",
+                "username": "贺叫兽",
+                "num": 1687
+            }, {
+                "imgNum": "14",
+                "desc": "白色的川崎H2你见过吗",
+                "username": "机车目录",
+                "num": 146
+            }, {
+                "imgNum": "15",
+                "desc": "My Melody🎀｜美乐蒂少女心生活助手",
+                "username": "鸭鸭吃饭啦",
+                "num": 2148
+            }, {
+                "imgNum": "16",
+                "desc": "女生必学紧急瘦身法‼️一周就能瘦八斤✔️",
+                "username": "桃桃爱吃桃",
+                "num": 910
+            }, {
+                "imgNum": "17",
+                "desc": "梅家晚饭",
+                "username": "梅之小榭",
+                "num": 129
+            }, {
+                "imgNum": "18",
+                "desc": "越护肤越油❓分享混油痘肌的自用经验",
+                "username": "宁七七Yuki",
+                "num": 84
+            }, {
+                "imgNum": "19",
+                "desc": "『NO.62』写作课📒Ⅰ含写作书单整理📚",
+                "username": "苏悠扬",
+                "num": 163
+            }, {
+                "imgNum": "20",
+                "desc": "魔都探店｜芋泥牛奶冰沙‼️宝藏甜品店‼️",
+                "username": "Angela影",
+                "num": 869
+            }
+        ];
+
+        // 给查看更多绑定鼠标点击事件
+        $(".more").on("click", function() {
+            // 随机从data数组取出5个不重复数组元素
+            data.sort(function() { // 随机排序
+                return Math.random() - 0.5;
+            });
+
+            // 截取(删除)前5个数组元素
+            var resData = data.splice(0, 5);
+
+            if (resData.length == 0) {
+                $(".more").html("没有更多数据啦~~~").css("color", "gray");
+                $(".more").off("click"); // 解绑事件
+                return;
+            }
+
+            // 遍历resData动态添加5个.item
+            $.each(resData, function(index, item) {
+                // 动态创建.item
+                var newItem = $(`<div class="item">
+                    <a href="#">
+                        <img src="images/pic/${item.imgNum}.jpg" class="pro_img"/>
+                        <div class="desc">${item.desc}</div>
+                        <div class="user_info">
+
+                            <img src="images/touxiang/${item.imgNum}.jpg" class="user_pic"/>
+                            <span class="user_name">${item.username}</span>
+
+                            <div class="heart_box">
+                                <img src="images/heart.png" class="heart"/>
+                                <span class="num">${item.num}</span>
+                            </div>
+                            
+                        </div>
+                    </a>
+                </div>`);
+                // 追加到.box中
+                $(".box").append(newItem);
+                // 隐藏元素
+                newItem.hide();
+                // 淡入元素
+                newItem.fadeIn();
+            })
+
+            // 调用瀑布流函数
+            waterfallFlow();
+
+            setTimeout(function() {
+                // 动画滚动页面到底部
+                $("body,html").animate({
+                    scrollTop: $(".box").height()
+                });
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

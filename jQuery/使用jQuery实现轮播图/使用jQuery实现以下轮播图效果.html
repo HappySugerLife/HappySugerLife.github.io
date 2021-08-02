@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        
+        img {
+            vertical-align: bottom;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .banner {
+            width: 500px;
+            position: relative;
+            margin: 100px auto;
+        }
+        
+        .banner .bigpic {
+            width: 500px;
+            height: 375px;
+        }
+        
+        .banner .bigpic li {
+            width: 500px;
+            height: 375px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        
+        .banner .bigpic li.active {
+            display: block;
+        }
+        
+        .banner .bigpic li img {
+            width: 500px;
+        }
+        
+        .banner .smallpic {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .banner .smallpic li {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        
+        .banner .smallpic li img {
+            width: 160px;
+        }
+        
+        .banner .smallpic li.active {
+            opacity: 1;
+        }
+        
+        .banner .prev,
+        .banner .next {
+            width: 30px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 162px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 30px;
+            color: white;
+            font-family: "宋体";
+            cursor: pointer;
+        }
+        
+        .banner .prev {
+            left: 0;
+        }
+        
+        .banner .next {
+            right: 0;
+        }
+        
+        .banner .prev:hover,
+        .banner .next:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <ul class="bigpic">
+            <li class="active"><img src="images/1.jpeg"></li>
+            <li><img src="images/2.jpeg"></li>
+            <li><img src="images/3.jpeg"></li>
+        </ul>
+
+        <ul class="smallpic">
+            <li class="active"><img src="images/1.jpeg"></li>
+            <li><img src="images/2.jpeg"></li>
+            <li><img src="images/3.jpeg"></li>
+        </ul>
+
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+        // 封装goto函数
+        function goto(currentIndex) {
+            // 当前的li添加.active类,其他li删除.active类
+            $(".banner .smallpic li").eq(currentIndex).addClass("active").siblings("li").removeClass("active");
+            $(".banner .bigpic li").eq(currentIndex).addClass("active").siblings("li").removeClass("active");
+
+        }
+        // 全局变量num
+        var num = 0;
+        // 定时器标识符
+        var timer = null;
+
+        // 右侧按钮点击事件
+
+        $(".banner .next").click(function() {
+            num++;
+            // 边界判断
+            num = num % $(".banner .smallpic li").length;
+            goto(num);
+        });
+
+        // 左侧按钮点击事件
+        $(".banner .prev").click(function() {
+            num--;
+            if (num == -1) { // 边界判断
+                num = $(".banner .smallpic li").length - 1;
+            }
+            goto(num);
+        });
+
+
+        // 自动轮播
+        function autoPlay() {
+            // 清除之前的定时器
+            window.clearInterval(timer);
+            // 开启定时器
+            timer = window.setInterval(function() {
+                // 自加1
+                num++;
+                // 边界判断
+                num = num % $(".banner .smallpic li").length;
+                goto(num);
+            }, 2500)
+        }
+
+        // 停止自动轮播
+        function stopPlay() {
+            window.clearInterval(timer);
+        }
+
+        // 鼠标点击 
+        $(".banner .smallpic li").click(function() {
+            // 获取当前li对应的索引号
+            var index = $(this).index();
+
+            goto(index);
+
+            // 把index的值赋值给num
+            num = index;
+        });
+
+
+        // 调用自动轮播的方法
+        autoPlay();
+
+        // 给.banner绑定鼠标移上移出事件
+        $(".banner").hover(function() {
+            stopPlay();
+        }, function() {
+            autoPlay();
+        })
+    </script>
+</body>
+
+</html>
