@@ -9,6 +9,9 @@
     <style>
         body {
             text-align: center;
+            background-image: url(images/05.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         
         button {
@@ -27,6 +30,10 @@
             color: rgb(57, 184, 235);
             padding-top: 30px;
             margin: 0 auto;
+        }
+        
+        label {
+            color: rgb(236, 114, 155);
         }
     </style>
 </head>
@@ -53,6 +60,7 @@
     </p>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script>
+        var arr = [1, 2, 3, 4, 5];
         $("button").click(function() {
                 var typeVal = $("span :checked").val();
                 $.get("https://v2.alapi.cn/api/hitokoto", {
@@ -60,9 +68,16 @@
                     type: typeVal
                 }, function(data) {
                     $("p").html(`来自：${data.data.from}<br><br>
-                    ${data.data.hitokoto}
+                ${data.data.hitokoto}
                 `);
-                })
+                });
+                // 随机背景
+                arr.sort(function() {
+                    return Math.random() - 0.5;
+                });
+                var arrCity = arr.slice(0, 1);
+                var htmlStr = `images/0${arrCity}.jpg`;
+                $("body").css("backgroundImage", `url(${htmlStr})`)
             })
             // $("body").keyup(function(e) {
             //     if (e.keyCode == 13) {
