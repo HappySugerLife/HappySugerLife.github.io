@@ -54,21 +54,21 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script>
         $("button").click(function() {
-            var typeVal = $("span :checked").val();
-            $.get("https://v2.alapi.cn/api/hitokoto", {
-                token: "lJLxHK2NrnPVri457AaK",
-                type: typeVal
-            }, function(data) {
-                $("p").html(`来自：${data.data.from}<br><br>
+                var typeVal = $("span :checked").val();
+                $.get("https://v2.alapi.cn/api/hitokoto", {
+                    token: "lJLxHK2NrnPVri457AaK",
+                    type: typeVal
+                }, function(data) {
+                    $("p").html(`来自：${data.data.from}<br><br>
                     ${data.data.hitokoto}
                 `);
+                })
             })
-        })
-        $("body").keyup(function(e) {
-            if (e.keyCode == 13) {
-                $("button").click();
-            }
-        })
+            // $("body").keyup(function(e) {
+            //     if (e.keyCode == 13) {
+            //         $("button").click();
+            //     }
+            // })
     </script>
 </body>
 
