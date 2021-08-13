@@ -27,14 +27,14 @@ a {
 }
 
 .site-head .topbar {
-    height: 32px;
+    height: 40px;
     background-color: #2A2A2A;
 }
 
 .site-head .topbar .shortcut-links>ul>li {
     float: left;
     padding: 0 9px;
-    line-height: 32px;
+    line-height: 40px;
     font-size: 14px;
 }
 
