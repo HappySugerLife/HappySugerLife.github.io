@@ -1,0 +1,682 @@
+ {
+     "normalCountdown": {
+         "text": "",
+         "image": "",
+         "isCountdomShow": true,
+         "titleColor": "#FFFFFF",
+         "countdown": 0
+     },
+     "detailInfo": {
+         "desc": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+         "detailImage": [{
+             "key": "图文详情",
+             "anchor": "detail_info",
+             "list": ["https://s5.mogucdn.com/mlcdn/55cf19/200630_153ded177jii9765128h45dhikf27_750x903.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_8c6f62hhja16c3bk4j171hl97j5b1_750x828.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_891g25i8jabk3c2bieafecac7454h_750x1197.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_6gkh21acg352g9177dcikeaj2k5ga_750x1025.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_0ff1260iejc334dbbdfg4dcja2hl1_750x1127.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0ci54ab2adf9e5e23b7adai5a34c6_750x626.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_889a9l8ck46kfc59e19id6d30967d_750x698.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_4g66jk56ak83g23jk055hhli0c557_750x1046.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_346cf60ae7e32k8kf7d1c71li6e3e_750x668.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0flgjb956ele0g264jdhk493flb9c_750x1153.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_7gi1g8773beffj7h0ij8l51k57117_750x918.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_2i5kk6i57160ba88djgd95kll1e9f_750x912.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0e8a5gjb10c8f98igh5di3f46dg34_750x929.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_6iebg3e1l38c80d2b1fii96c160hh_750x942.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_4hbg4lllg2h6137f1a5i4f731c4l3_750x923.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/200630_5ifd25bfcj3i7195hbbd50l9j9id2_750x870.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0d0c75hhdddij1clbd5fjc65d0jjf_750x932.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_52ghkb81gbh38d4fe7hla26bda60c_750x642.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_1176gidaa20d1i8fbff8bhlf949c0_750x557.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0h06601fh9i78d03bk0ek401efhf0_750x546.jpg", "https://s11.mogucdn.com/mlcdn/c45406/200630_7hji87iee1e231j51g571c5cfdjb3_707x826.jpg", "https://s11.mogucdn.com/p2/170316/77101615_2hbi2aih2ecjaeg3eikjdia6206gb_1125x380.jpg"]
+         }],
+         "shopDecorate": {},
+         "splitDetailImage": true
+     },
+     "saleTextInfo": {
+         "name": "slogan"
+     },
+     "liveExplainInfo": {},
+     "itemServices": {
+         "services": [{
+             "content": "",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893",
+             "name": "72小时发货",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png"
+         }, {
+             "name": "7天无理由退货",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "物流签收后7天内买家可无理由退货，需满足退货条件",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892"
+         }, {
+             "name": "延误必赔",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。"
+         }, {
+             "name": "退货补运费",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927"
+         }],
+         "columns": [{
+             "name": "sales",
+             "desc": "销量 11",
+             "icon": "https://s5.mogucdn.com/p1/161117/idid_ifrdkytcgbstoobummzdambqmeyde_512x512.png"
+         }, {
+             "icon": "https://s5.mogucdn.com/p1/161117/idid_ifqwgnbsmjsdoobummzdambqgyyde_512x512.png",
+             "name": "express",
+             "desc": "免邮费"
+         }]
+     },
+     "rateLookInfo": {},
+     "delayExpress": {
+         "_extra_control_hide_": true,
+         "componentKey": "forDelayShipping"
+     },
+     "userInfo": {
+         "admin": false,
+         "sellerId": "1ep97j8",
+         "systemTime": 1633685310,
+         "xcxVersion": 10,
+         "xcxType": "H5",
+         "userId": "1ep97j8",
+         "isLogin": false,
+         "isSelf": false,
+         "shopId": "1172w1eu"
+     },
+     "liveLabelInfo": {},
+     "useBeforeBuyInfo": {},
+     "shopBannerInfo": {},
+     "normalShareInfo": {
+         "title": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+         "content": "亲爱的～这件宝贝不错哦，快进来看看吧～",
+         "url": "//h5.mogu.com/detail-normal/index.html?itemId=1mujkaa&from=share",
+         "imageUrl": "https://s5.mogucdn.com/mlcdn/55cf19/200630_2kk635ge10h00a0bh0ekj8h7ih42j_640x960.jpg"
+     },
+     "crossShopDiscount": {
+         "_extra_control_hide_": true
+     },
+     "webImOptionInfo": {
+         "showOnBottom": true,
+         "option": {
+             "title": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+             "shopId": "1172w1eu",
+             "userId": "1ep97j8",
+             "goodsId": "1mujkaa",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_2kk635ge10h00a0bh0ekj8h7ih42j_640x960.jpg"
+         }
+     },
+     "tabpanelHideInfo": {
+         "moduleTabpanelRecommend": false
+     },
+     "hotSaleRankInfo": {
+         "_extra_control_hide_": true
+     },
+     "installmentGuide": {},
+     "installmentInfo": "",
+     "promotionV2": {
+         "promotionStyle": {
+             "arrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_21h4k1gj40d3j5b68a9k7dk62i5ik_120x50.png",
+             "couponArrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_13dkdf1076bbfijhaddgh2i07917g_120x50.png"
+         },
+         "sellerId": "1ep97j8",
+         "iid": "1mujkaa",
+         "request": {
+             "preSale": false,
+             "sellerId": "1ep97j8",
+             "itemIds": "1mujkaa",
+             "itemPrice": 11970
+         },
+         "showShopPromotion": true,
+         "popoversRealtime": [],
+         "outersRealtime": [],
+         "calculateDiscount": {
+             "discountDesc": "",
+             "originalPrice": "",
+             "originalPriceDesc": "",
+             "discountList": []
+         }
+     },
+     "addCartLottery": {
+         "addCartTip": {},
+         "activityId": "",
+         "lotteryResult": []
+     },
+     "actorDSR": {
+         "_extra_control_hide_": true
+     },
+     "rateInfoV2": {
+         "sales": 11,
+         "needDSR": true,
+         "cScore": "",
+         "cRate": 0,
+         "imgTotal": 0
+     },
+     "shopInfo": {
+         "cGoods": 355,
+         "saleDescV2": "在架商品 355",
+         "shopLabels": [{
+             "id": 201,
+             "text": "383人关注"
+         }, {
+             "text": "累计销量7517",
+             "id": 303
+         }],
+         "dynShopLabels": [],
+         "services": [{
+             "serviceHeadId": 1800,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "延误必赔",
+             "desc": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。",
+             "serviceDetailId": 1810
+         }, {
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "退货补运费",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927",
+             "desc": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+             "serviceDetailId": 610,
+             "serviceHeadId": 600
+         }, {
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892",
+             "desc": "物流签收后7天内买家可无理由退货，需满足退货条件",
+             "serviceDetailId": 110,
+             "serviceHeadId": 100,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "7天无理由退货"
+         }, {
+             "name": "72小时发货",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893",
+             "desc": "",
+             "serviceDetailId": 430,
+             "serviceHeadId": 400,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png"
+         }],
+         "cFans": "383",
+         "isMarked": false,
+         "userId": "1ep97j8",
+         "shopId": "1172w1eu",
+         "type": 2,
+         "shopUrl": "//m.mogu.com/v8/meili/shop?shopid=1172w1eu",
+         "saleDesc": "在架商品 ",
+         "shopLabelPriority": "101,102,201,301,302,303,401,402,501,502,601,602",
+         "cSells": "7517",
+         "shopLogo": "https://s11.mogucdn.com/mlcdn/c45406/191125_141aa0795h1lfdch5hce497j3akb5_300x300.jpg",
+         "name": "馨美尚铺",
+         "level": 2,
+         "levelDescV2": "推荐指数",
+         "score": [{
+             "name": "描述相符",
+             "score": 5,
+             "isBetter": true
+         }, {
+             "name": "质量满意",
+             "score": 5,
+             "isBetter": true
+         }]
+     },
+     "liveInfo": {},
+     "normalPriceV2": {
+         "prePriceTag": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "highPriceDesc": "起",
+         "priceColor": "#333333",
+         "priceTags": [{
+             "text": "热卖促销",
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         }],
+         "eventPrice": "",
+         "eventPriceDesc": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "nowPriceNum": 11970,
+         "priceSplit": "~",
+         "eventPriceColor": "#FF2255",
+         "eventTags": [],
+         "mobilePrice": "",
+         "mobileDownloadLink": "",
+         "eventDesc": "",
+         "extraDescs": [],
+         "sales": "11",
+         "priceTopTags": [],
+         "highNowPrice": "",
+         "couponDesc": "",
+         "couponPrice": "",
+         "currency": "¥",
+         "extraDesc": "",
+         "nowPrice": "119.70",
+         "oldPrice": ""
+     },
+     "buyerShopRecommend": {
+         "_extra_control_hide_": true
+     },
+     "itemParams": {
+         "info": {
+             "anchor": "product_info",
+             "set": {
+                 "袖长": "短袖",
+                 "裙型": "A字裙",
+                 "衣门襟": "其他",
+                 "尺码": "S,XL,2XL,L,M",
+                 "季节": "夏季",
+                 "组合形式": "单件",
+                 "领型": "其他领型",
+                 "元素": "吊染",
+                 "图案": "花色",
+                 "裙长": "超短裙（小于75cm）",
+                 "潮流": "中式",
+                 "颜色": "藕色",
+                 "袖型": "常规袖",
+                 "材质": "其他",
+                 "风格": "通勤（OL）",
+                 "开衩": "低开衩",
+                 "摆型": "荷叶",
+                 "腰型": "中腰",
+                 "版型": "收腰"
+             },
+             "key": "产品参数"
+         },
+         "machedSizeLine": -1,
+         "headUnits": ["", "cm", "cm", "cm", "cm", "cm", "cm"]
+     },
+     "bottomBar": {
+         "buttons": [{
+             "type": "icon",
+             "name": "shop",
+             "text": "店铺"
+         }, {
+             "type": "im",
+             "name": "im",
+             "text": "客服"
+         }, {
+             "type": "icon",
+             "name": "fav",
+             "text": "收藏"
+         }, {
+             "text": "加入购物车",
+             "isDisabled": false,
+             "type": "button",
+             "name": "cart"
+         }, {
+             "type": "button",
+             "name": "buy",
+             "text": "立即购买",
+             "isDisabled": false
+         }]
+     },
+     "officialSelect": {
+         "_extra_control_hide_": true
+     },
+     "preSaleInfo": "",
+     "officialRecommend": {},
+     "saleTextInfoV2": {
+         "name": "slogan"
+     },
+     "platformCoupons": {
+         "couponInfo": {
+             "title": "",
+             "couponList": []
+         },
+         "popoverPlatformCoupons": {
+             "title": "",
+             "list": []
+         }
+     },
+     "orderCarousel": {
+         "fadeTime": 800,
+         "displayTime": 2500,
+         "gapTime": 500,
+         "_extra_control_hide_": false,
+         "delayTime": 2000
+     },
+     "shareInfo": {
+         "isNeedShareIntegral": false,
+         "shareIntegral": false,
+         "shareLottery": false,
+         "shareLog": true,
+         "shareIntegralInfo": {
+             "ruleLink": "",
+             "friendsIcon": "https://s3.mogucdn.com/mlcdn/c45406/180316_3654j24hf87f75j2e27ijjh60jllf_110x110.png",
+             "momentsIcon": "https://s17.mogucdn.com/mlcdn/c45406/180316_145ilek69006jeah5gdk9669il6hd_110x110.png",
+             "title": "",
+             "ruleTitle": "",
+             "color": "#333333",
+             "strongColor": "",
+             "rules": [],
+             "newTitleImage": "",
+             "shareIcon": "",
+             "bgImage": "",
+             "titleIcon": ""
+         },
+         "shareLotteryInfo": {
+             "bg": "https://s10.mogucdn.com/mlcdn/c45406/180320_5i652adg4dke998412f88kf8lb0a6_630x714.png",
+             "btnColor": "#fe8605",
+             "btnText": "知道了",
+             "relationKey": "YOZhgdkPY/IPOy0DEywC9g=="
+         }
+     },
+     "rateInfo": {
+         "sales": 11,
+         "cRate": 0,
+         "imgTotal": 0
+     },
+     "topImages": ["https://s5.mogucdn.com/mlcdn/55cf19/200630_2kk635ge10h00a0bh0ekj8h7ih42j_640x960.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/200630_0129fh1lidb7ig0cfa1c64jblc64b_640x960.jpg"],
+     "priceBanner": {},
+     "skuBarInfo": {},
+     "normalPrice": {
+         "sales": "11",
+         "currency": "¥",
+         "extraDesc": "",
+         "extraDescs": [],
+         "nowPrice": "119.70",
+         "highPriceDesc": "起",
+         "oldPrice": "",
+         "priceSplit": "~",
+         "priceTopTags": [],
+         "eventPriceDesc": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "mobilePrice": "",
+         "eventDesc": "",
+         "nowPriceNum": 11970,
+         "couponDesc": "",
+         "couponPrice": "",
+         "priceColor": "#333333",
+         "priceTags": [{
+             "text": "热卖促销",
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         }],
+         "prePriceTag": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "eventPrice": "",
+         "eventPriceColor": "#FF2255",
+         "highNowPrice": "",
+         "mobileDownloadLink": "",
+         "eventTags": []
+     },
+     "itemInfo": {
+         "highPrice": "119.70",
+         "title": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+         "itemId": "1mujkaa",
+         "seo": {
+             "keywords": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+             "wap_url": "//m.mogujie.com/x6/detail/1mujkaa",
+             "description": "来自蘑菇街优店女装_服饰鞋包_连衣裙_裙子家2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙的2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙，发现当季女鞋和馨美尚铺搭配心得。",
+             "alternate": "//m.mogujie.com/x6/detail/1mujkaa",
+             "links": "null",
+             "canonical": "//shop.mogujie.com/detail/1mujkaa",
+             "seo_noindex": "0",
+             "title": "【2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙】-女鞋-女装_服饰鞋包_连衣裙_裙子-馨美尚铺-蘑菇街优店"
+         },
+         "virtualItemType": 0,
+         "lowPrice": "119.70",
+         "cids": "#682# #683# #704# #705#",
+         "state": 0,
+         "saleType": 0,
+         "priceChannel": 0,
+         "highNowPrice": "119.70",
+         "pickforme": {
+             "name": "帮我选",
+             "icon": "https://s10.mogucdn.com/mlcdn/c45406/191218_762ibk3def84blec68cbe4le770df_54x54.png",
+             "link": "/pages/web/index?login=true&share=true&src=https%3A%2F%2Fh5.mogu.com%2Fpickforme%2Flaunch%2Findex.html%3FitemId%3D1mujkaa%26acm%3D3.mce.1_10_1nh28.143035.0.5KcpksLeV3y87.pos_0-m_547572-sd_119",
+             "h5Link": "https://h5.mogu.com/pickforme/launch/index.html?itemId=1mujkaa&acm=3.mce.1_10_1nh28.143035.0.5KcpksLeV3y87.pos_0-m_547572-sd_119",
+             "acm": "3.mce.1_10_1nh28.143035.0.5KcpksLeV3y87.pos_0-m_547572-sd_119"
+         },
+         "saleStartTime": 0,
+         "video": {
+             "muted": false,
+             "autoplay": false
+         },
+         "titleTagsV2": [],
+         "picTags": [],
+         "titleTags": [],
+         "lowNowPrice": "119.70",
+         "desc": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+         "isFaved": false,
+         "cFav": 100,
+         "numTags": ["1525"]
+     },
+     "sizeHelper": {},
+     "priceBannerV2": {},
+     "skuInfo": {
+         "showDelayTime": false,
+         "autoCouponInfo": {
+             "isDisable": false,
+             "btnText": "领券购买",
+             "nextBtnText": "",
+             "defaultText": "立即购买",
+             "showBtnText": "立即购买",
+             "jsonExtra": "{\"goods_last_on_shelf\":\"2020-06-30 14:07:16.9\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2020-06-30 14:07:16.9\",\"tags\":\"1525\"}",
+             "promotionItemTags": "[]",
+             "sellerId": "1ep97j8"
+         },
+         "insuranceMait": [{
+             "_system_expose_pv_15d": 0,
+             "_system_click_pv_15d": 0,
+             "_system_click_uv_7d": 0,
+             "startTime": 1587544218,
+             "_system_expose_uv_1d": 0,
+             "_system_expose_uv_15d": 0,
+             "insuranceCodeForBill": "yiwaihuanxin",
+             "_system_click_pv_7d": 0,
+             "_material_end_time": 2147483647,
+             "_system_click_uv_1d": 0,
+             "insuranceCode": "10",
+             "_system_rt_click_uv_1d": 0,
+             "_system_expose_uv_7d": 0,
+             "_system_expose_uv_30d": 0,
+             "endTime": 2147483647,
+             "_system_click_uv_30d": 0,
+             "explainURL": "https://act.mogu.com/yiwaihuanxin202008",
+             "explainXcxUrl": "https://act.mogu.com/yiwaihuanxin202008",
+             "_system_expose_pv_7d": 0,
+             "_system_expose_pv_1d": 0,
+             "_system_sort": 1,
+             "_system_record_entry_id": "566834",
+             "name": "意外换新",
+             "_system_click_pv_30d": 0,
+             "desc": "衣物意外破损五折换新",
+             "_system_click_uv_15d": 0,
+             "_system_click_pv_1d": 0,
+             "_system_rt_expose_pv_1d": 0,
+             "acm": "3.mce.1_10_1oasc.145273.0.7OS5asLeV3y0I.pos_0-m_566834-sd_119",
+             "_system_expose_pv_30d": 0,
+             "_system_rt_click_pv_1d": 0,
+             "_material_start_time": 1587544218
+         }, {
+             "_system_click_pv_15d": 0,
+             "_system_click_uv_7d": 0,
+             "_system_click_uv_30d": 0,
+             "_system_rt_expose_pv_1d": 0,
+             "_system_expose_pv_15d": 0,
+             "_system_sort": 1,
+             "_system_click_pv_1d": 0,
+             "_system_expose_uv_30d": 0,
+             "_material_start_time": 1587544261,
+             "_system_rt_click_uv_1d": 0,
+             "_system_expose_pv_30d": 0,
+             "insuranceCodeForBill": "tunhuowuyou",
+             "endTime": 2147483647,
+             "_system_expose_uv_15d": 0,
+             "_system_click_uv_15d": 0,
+             "desc": "全新未拆封过期可赔现金",
+             "_material_end_time": 2147483647,
+             "_system_expose_uv_7d": 0,
+             "explainURL": "https://act.mogu.com/tunhuowuyou202008",
+             "_system_rt_click_pv_1d": 0,
+             "_system_expose_pv_7d": 0,
+             "name": "囤货无忧",
+             "_system_click_pv_30d": 0,
+             "_system_record_entry_id": "566835",
+             "acm": "3.mce.1_10_1oase.145273.0.7OS5asLeV3y0J.pos_1-m_566835-sd_119",
+             "_system_click_uv_1d": 0,
+             "insuranceCode": "11",
+             "explainXcxUrl": "https://act.mogu.com/tunhuowuyou202008",
+             "startTime": 1587544261,
+             "_system_expose_pv_1d": 0,
+             "_system_expose_uv_1d": 0,
+             "_system_click_pv_7d": 0
+         }],
+         "priceRange": "¥119.70",
+         "totalStock": 59769,
+         "addressInfo": {},
+         "promotionExtraParams": {
+             "cids": "#682# #683# #704# #705#",
+             "shopTags": "600,2000,3888"
+         },
+         "jsonExtra": "{\"goods_last_on_shelf\":\"2020-06-30 14:07:16.9\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2020-06-30 14:07:16.9\",\"tags\":\"1525\"}",
+         "isJdItem": false,
+         "skus": [{
+             "price": 17100,
+             "nowprice": 11970,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_0gfd4jk2a7bdg8fd4gc4e58l28g2a_800x800.jpg",
+             "style": "藕色",
+             "color": "#eed0d8",
+             "size": "S",
+             "stockId": "11f1lzgs",
+             "xdSkuId": "11f1lzgs",
+             "currency": "¥",
+             "stock": 11935,
+             "styleId": 1,
+             "sizeId": 100,
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1543240138,
+                     "actualPrice": 11970,
+                     "insuranceCode": 10,
+                     "insurancePrice": 599,
+                     "sellerUserId": 442921819
+                 }]
+             }
+         }, {
+             "color": "#eed0d8",
+             "size": "M",
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1543240140,
+                     "actualPrice": 11970,
+                     "insuranceCode": 10,
+                     "insurancePrice": 599,
+                     "sellerUserId": 442921819
+                 }]
+             },
+             "xdSkuId": "11f1lzgw",
+             "nowprice": 11970,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_0gfd4jk2a7bdg8fd4gc4e58l28g2a_800x800.jpg",
+             "style": "藕色",
+             "styleId": 1,
+             "sizeId": 101,
+             "stockId": "11f1lzgw",
+             "price": 17100,
+             "currency": "¥",
+             "stock": 11908
+         }, {
+             "style": "藕色",
+             "sizeId": 102,
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1543240137,
+                     "actualPrice": 11970,
+                     "insuranceCode": 10,
+                     "insurancePrice": 599,
+                     "sellerUserId": 442921819
+                 }]
+             },
+             "price": 17100,
+             "nowprice": 11970,
+             "currency": "¥",
+             "stock": 11963,
+             "size": "L",
+             "styleId": 1,
+             "stockId": "11f1lzgq",
+             "xdSkuId": "11f1lzgq",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_0gfd4jk2a7bdg8fd4gc4e58l28g2a_800x800.jpg",
+             "color": "#eed0d8"
+         }, {
+             "color": "#eed0d8",
+             "stockId": "11f1lzgu",
+             "xdSkuId": "11f1lzgu",
+             "style": "藕色",
+             "currency": "¥",
+             "stock": 11977,
+             "size": "XL",
+             "styleId": 1,
+             "sizeId": 103,
+             "price": 17100,
+             "nowprice": 11970,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_0gfd4jk2a7bdg8fd4gc4e58l28g2a_800x800.jpg",
+             "insuranceMap": {
+                 "10": [{
+                     "sellerUserId": 442921819,
+                     "skuId": 1543240139,
+                     "actualPrice": 11970,
+                     "insuranceCode": 10,
+                     "insurancePrice": 599
+                 }]
+             }
+         }, {
+             "style": "藕色",
+             "color": "#eed0d8",
+             "styleId": 1,
+             "stockId": "11f1lzgy",
+             "xdSkuId": "11f1lzgy",
+             "price": 17100,
+             "nowprice": 11970,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/200630_0gfd4jk2a7bdg8fd4gc4e58l28g2a_800x800.jpg",
+             "insuranceMap": {
+                 "10": [{
+                     "insurancePrice": 599,
+                     "sellerUserId": 442921819,
+                     "skuId": 1543240141,
+                     "actualPrice": 11970,
+                     "insuranceCode": 10
+                 }]
+             },
+             "currency": "¥",
+             "stock": 11986,
+             "size": "2XL",
+             "sizeId": 104
+         }],
+         "props": [{
+             "label": "颜色",
+             "list": [{
+                 "type": "style",
+                 "name": "藕色",
+                 "isDefault": false,
+                 "styleId": 1,
+                 "index": 1
+             }],
+             "isDefault": false
+         }, {
+             "label": "尺码",
+             "list": [{
+                 "type": "size",
+                 "name": "S",
+                 "isDefault": false,
+                 "sizeId": 100,
+                 "index": 100
+             }, {
+                 "type": "size",
+                 "name": "M",
+                 "isDefault": false,
+                 "sizeId": 101,
+                 "index": 101
+             }, {
+                 "type": "size",
+                 "name": "L",
+                 "isDefault": false,
+                 "sizeId": 102,
+                 "index": 102
+             }, {
+                 "sizeId": 103,
+                 "index": 103,
+                 "type": "size",
+                 "name": "XL",
+                 "isDefault": false
+             }, {
+                 "type": "size",
+                 "name": "2XL",
+                 "isDefault": false,
+                 "sizeId": 104,
+                 "index": 104
+             }],
+             "isDefault": false
+         }],
+         "styleKey": "颜色",
+         "canInstallment": false,
+         "title": "2020改良旗袍式连衣裙少女蕾丝绣花显瘦清新淡雅中国风连衣裙",
+         "sizeKey": "尺码",
+         "defaultPrice": "¥119.70",
+         "promotionItemTags": "[]"
+     }
+ }

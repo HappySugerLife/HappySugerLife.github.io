@@ -1,0 +1,1341 @@
+  {
+      "rateInfo": {
+          "imgTotal": 22,
+          "rateTags": [{
+              "value": "有图片",
+              "num": 22,
+              "labelId": 0,
+              "emotion": "positive",
+              "property": "图片"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "图片描述一致",
+              "num": 26,
+              "labelId": 15,
+              "labelIds": "15"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "没有色差",
+              "num": 26,
+              "labelId": 13,
+              "labelIds": "13"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "上身效果好",
+              "num": 26,
+              "labelId": 11,
+              "labelIds": "11"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "款式好看",
+              "num": 25,
+              "labelId": 12,
+              "labelIds": "12"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "做工满意",
+              "num": 23,
+              "labelId": 5,
+              "labelIds": "5"
+          }],
+          "sales": 1112,
+          "list": [{
+              "rateId": "11cissg2",
+              "content": "没有色差,性价比高,图片描述一致,款式好看,做工满意,发货快,没有线头\n很不错，是我喜欢的款式。哈哈",
+              "style": "颜色:杏色 尺码:M ",
+              "user": {
+                  "profileUrl": "",
+                  "uname": "泗县莱绅通灵苗慧敏",
+                  "avatar": "https://s5.mogucdn.com/mlcdn/5abf39/180223_38k8k92g97191k4d54kd2cf355gb6_132x132.jpg"
+              },
+              "images": ["https://s11.mogucdn.com/mlcdn/c45406/210330_5lgjjle89k6590k8bb5ecagldj0ai_810x1080.jpg", "https://s5.mogucdn.com/mlcdn/c45406/210330_069ea63gibbji15jd8k09c7617f98_810x1080.jpg", "https://s11.mogucdn.com/mlcdn/c45406/210330_1b8h329li9a357g8i3ab38c1fib08_810x1080.jpg", "https://s11.mogucdn.com/mlcdn/c45406/210330_41237h3h105bcghc181f9abf662g0_810x1080.jpg"],
+              "created": 1617076761,
+              "isAnonymous": 0,
+              "isEmpty": 1,
+              "level": "",
+              "canExplain": false,
+              "isBuyerShow": false
+          }],
+          "cRate": 193
+      },
+      "liveExplainInfo": {},
+      "priceBanner": {},
+      "rateLookInfo": {},
+      "promotionV2": {
+          "request": {
+              "preSale": false,
+              "sellerId": "17ft4ek",
+              "itemIds": "1mm51o6",
+              "itemPrice": 8800
+          },
+          "showShopPromotion": true,
+          "popoversRealtime": [],
+          "outersRealtime": [],
+          "calculateDiscount": {
+              "discountDesc": "",
+              "originalPrice": "",
+              "originalPriceDesc": "",
+              "discountList": []
+          },
+          "promotionStyle": {
+              "couponArrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_13dkdf1076bbfijhaddgh2i07917g_120x50.png",
+              "arrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_21h4k1gj40d3j5b68a9k7dk62i5ik_120x50.png"
+          },
+          "sellerId": "17ft4ek",
+          "iid": "1mm51o6"
+      },
+      "installmentGuide": {},
+      "sizeHelper": {},
+      "liveLabelInfo": {},
+      "rateInfoV2": {
+          "sales": 1112,
+          "needDSR": true,
+          "cScore": "5.00",
+          "list": [{
+              "content": "没有色差,性价比高,图片描述一致,款式好看,做工满意,发货快,没有线头\n很不错，是我喜欢的款式。哈哈",
+              "isAnonymous": 0,
+              "isEmpty": 1,
+              "isBuyerShow": false,
+              "userTags": [],
+              "user": {
+                  "profileUrl": "",
+                  "uname": "泗县莱绅通灵苗慧敏",
+                  "avatar": "https://s5.mogucdn.com/mlcdn/5abf39/180223_38k8k92g97191k4d54kd2cf355gb6_132x132.jpg"
+              },
+              "rateId": "11cissg2",
+              "created": 1617076761,
+              "style": "颜色:杏色 尺码:M ",
+              "level": "",
+              "canExplain": false
+          }, {
+              "created": 1617941385,
+              "isAnonymous": 1,
+              "level": "",
+              "extraInfo": ["身高: 165 cm", "体重: 45 kg", "是否合身: 合身 "],
+              "isBuyerShow": false,
+              "sizeInfo": {
+                  "desc": "合身 ",
+                  "weight": "45kg",
+                  "height": "165cm"
+              },
+              "rateId": "11ckqiys",
+              "content": "没有色差，性价比",
+              "isEmpty": 1,
+              "canExplain": false,
+              "userTags": [],
+              "user": {
+                  "uname": "w***o",
+                  "avatar": "https://s5.mogucdn.com/p1/160105/idid_ifrwenjuhfsggntfguzdambqhayde_160x160.jpg",
+                  "profileUrl": ""
+              },
+              "style": "颜色:杏色 尺码:M "
+          }, {
+              "content": "衣服很不错，也很合身，质量非常好，大家可以放心购买。",
+              "isAnonymous": 0,
+              "style": "颜色:杏色 尺码:M ",
+              "level": "",
+              "canExplain": false,
+              "isBuyerShow": false,
+              "userTags": [],
+              "user": {
+                  "uname": "艾艾朱剑婷",
+                  "avatar": "https://s5.mogucdn.com/mlcdn/5abf39/171006_64dli2d774a2d11lgbff5225ea5k9_640x640.jpg",
+                  "profileUrl": ""
+              },
+              "created": 1585223166,
+              "isEmpty": 1,
+              "rateId": "11aa2zs4"
+          }, {
+              "rateId": "11aeefo2",
+              "isAnonymous": 0,
+              "level": "",
+              "sizeInfo": {
+                  "weight": "45kg",
+                  "height": "156cm",
+                  "desc": "合身 "
+              },
+              "isEmpty": 1,
+              "canExplain": false,
+              "extraInfo": ["身高: 156 cm", "体重: 45 kg", "是否合身: 合身 "],
+              "isBuyerShow": false,
+              "user": {
+                  "uname": "往事如风8vs4up",
+                  "avatar": "https://s11.mogucdn.com/mlcdn/5abf39/190611_46lcd839l81181iakl5aekg44kc93_132x132.jpg",
+                  "profileUrl": ""
+              },
+              "content": "没有线头\n裙子挺合适的，就是太薄了",
+              "created": 1586665639,
+              "style": "颜色:杏色 尺码:S ",
+              "userTags": []
+          }, {
+              "rateId": "11a0wc0y",
+              "created": 1579094756,
+              "style": "颜色:杏色加绒 尺码:XXL ",
+              "level": "",
+              "isBuyerShow": false,
+              "sizeInfo": {
+                  "weight": "46kg",
+                  "height": "153cm",
+                  "desc": "合身 "
+              },
+              "user": {
+                  "avatar": "https://s5.mogucdn.com/p1/160105/idid_ifrtcnbzgbswgntfguzdambqhayde_160x160.jpg",
+                  "profileUrl": "",
+                  "uname": "认***3"
+              },
+              "isAnonymous": 1,
+              "isEmpty": 1,
+              "canExplain": false,
+              "extraInfo": ["身高: 153 cm", "体重: 46 kg", "是否合身: 合身 "],
+              "userTags": [],
+              "content": "试穿了一下裙子很漂亮，还没有穿到过年的时候穿"
+          }],
+          "cRate": 193,
+          "imgTotal": 22,
+          "rateTags": [{
+              "value": "有图片",
+              "num": 22,
+              "labelId": 0,
+              "emotion": "positive",
+              "property": "图片"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "图片描述一致",
+              "num": 26,
+              "labelId": 15,
+              "labelIds": "15"
+          }, {
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "没有色差",
+              "num": 26,
+              "labelId": 13,
+              "labelIds": "13"
+          }, {
+              "property": "rateLabel",
+              "value": "上身效果好",
+              "num": 26,
+              "labelId": 11,
+              "labelIds": "11",
+              "emotion": "positive"
+          }, {
+              "labelIds": "12",
+              "emotion": "positive",
+              "property": "rateLabel",
+              "value": "款式好看",
+              "num": 25,
+              "labelId": 12
+          }, {
+              "value": "做工满意",
+              "num": 23,
+              "labelId": 5,
+              "labelIds": "5",
+              "emotion": "positive",
+              "property": "rateLabel"
+          }]
+      },
+      "shopInfo": {
+          "categories": [{
+              "name": "裤装",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20226363"
+          }, {
+              "name": "套装",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20226366"
+          }, {
+              "name": "雪纺衫/衬衫",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20226367"
+          }, {
+              "name": "针织衫毛衣",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20246430"
+          }, {
+              "name": "外套",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20257242"
+          }, {
+              "name": "长袖/短袖t恤",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20298373"
+          }, {
+              "name": "裙装",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20300826"
+          }, {
+              "name": "卫衣",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20338095"
+          }, {
+              "name": "背心/抹胸/打底裤",
+              "link": "http://shop.mogu.com/1172ua9c/list/index?categoryId=20362965"
+          }],
+          "name": "小哚哚家",
+          "shopId": "1172ua9c",
+          "saleDesc": "在架商品 ",
+          "shopLabelPriority": "101,102,201,301,302,303,401,402,501,502,601,602",
+          "cFans": "10.4万",
+          "cGoods": 694,
+          "levelDescV2": "推荐指数",
+          "dynShopLabels": [],
+          "shopLabels": [{
+              "text": "10.4万人关注",
+              "id": 201
+          }, {
+              "id": 303,
+              "text": "累计销量44.7万+"
+          }, {
+              "text": "3年老字号",
+              "id": 602
+          }],
+          "services": [{
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "name": "延误必赔",
+              "desc": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。",
+              "serviceDetailId": 1810,
+              "serviceHeadId": 1800
+          }, {
+              "serviceHeadId": 600,
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "name": "退货补运费",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927",
+              "desc": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+              "serviceDetailId": 610
+          }, {
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "name": "全国包邮",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=895",
+              "desc": "",
+              "serviceDetailId": 310,
+              "serviceHeadId": 300
+          }, {
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "name": "7天无理由退货",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892",
+              "desc": "物流签收后7天内买家可无理由退货，需满足退货条件",
+              "serviceDetailId": 110,
+              "serviceHeadId": 100
+          }, {
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "name": "72小时发货",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893",
+              "desc": "",
+              "serviceDetailId": 430,
+              "serviceHeadId": 400
+          }],
+          "userId": "17ft4ek",
+          "type": 2,
+          "level": 3,
+          "shopUrl": "//m.mogu.com/v8/meili/shop?shopid=1172ua9c",
+          "saleDescV2": "在架商品 694",
+          "score": [{
+              "score": 4.72,
+              "isBetter": false,
+              "name": "描述相符"
+          }, {
+              "name": "质量满意",
+              "score": 4.72,
+              "isBetter": false
+          }],
+          "cSells": "44.8万",
+          "isMarked": false,
+          "shopLogo": "https://s11.mogucdn.com/mlcdn/c45406/170714_18i237aei5d55hidk9jdehe5cfb9k_300x300.jpg"
+      },
+      "preSaleInfo": "",
+      "normalShareInfo": {
+          "content": "亲爱的～这件宝贝不错哦，快进来看看吧～",
+          "url": "//h5.mogu.com/detail-normal/index.html?itemId=1mm51o6&from=share",
+          "imageUrl": "https://s5.mogucdn.com/mlcdn/c45406/191017_687i48065d4i7gegc198i6jkag0l7_5000x6500.jpg",
+          "title": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女"
+      },
+      "saleTextInfoV2": {
+          "name": "slogan"
+      },
+      "userInfo": {
+          "shopId": "1172ua9c",
+          "systemTime": 1634199193,
+          "admin": false,
+          "isLogin": false,
+          "isSelf": false,
+          "sellerId": "17ft4ek",
+          "xcxType": "H5",
+          "xcxVersion": 10,
+          "userId": "17ft4ek"
+      },
+      "officialSelect": {
+          "_extra_control_hide_": true
+      },
+      "normalPrice": {
+          "priceTags": [{
+              "text": "达人推荐",
+              "bgColor": "#FFE8EE",
+              "textColor": "#FF2255"
+          }],
+          "prePriceTag": {
+              "bgColor": "#FFE8EE",
+              "textColor": "#FF2255"
+          },
+          "eventPriceDesc": {
+              "textColor": "#FF2255",
+              "bgColor": "#FFE8EE"
+          },
+          "mobilePrice": "",
+          "mobileDownloadLink": "",
+          "couponDesc": "",
+          "currency": "¥",
+          "priceColor": "#333333",
+          "eventDesc": "",
+          "extraDesc": "",
+          "extraDescs": [],
+          "eventTags": [],
+          "oldPrice": "",
+          "highNowPrice": "99",
+          "sales": "1112",
+          "highPriceDesc": "起",
+          "priceSplit": "~",
+          "priceTopTags": [],
+          "nowPrice": "88",
+          "nowPriceNum": 8800,
+          "couponPrice": "",
+          "eventPrice": "",
+          "eventPriceColor": "#FF2255"
+      },
+      "hotSaleRankInfo": {
+          "_extra_control_hide_": true
+      },
+      "platformCoupons": {
+          "couponInfo": {
+              "title": "",
+              "couponList": []
+          },
+          "popoverPlatformCoupons": {
+              "title": "",
+              "list": []
+          }
+      },
+      "buyerShopRecommend": {
+          "_extra_control_hide_": true
+      },
+      "actorDSR": {
+          "_extra_control_hide_": true
+      },
+      "webImOptionInfo": {
+          "option": {
+              "userId": "17ft4ek",
+              "goodsId": "1mm51o6",
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_687i48065d4i7gegc198i6jkag0l7_5000x6500.jpg",
+              "title": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+              "shopId": "1172ua9c"
+          },
+          "showOnBottom": true
+      },
+      "topImages": ["https://s5.mogucdn.com/mlcdn/c45406/191017_687i48065d4i7gegc198i6jkag0l7_5000x6500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_18g6ih1g1jd7la1dha32g2j391e37_5000x6500.jpg"],
+      "liveInfo": {},
+      "skuBarInfo": {
+          "labelV2": "颜色\n规格",
+          "label": "颜色规格",
+          "type": "SKU_IMAGE",
+          "list": [{
+              "color": "#ffa631",
+              "label": "杏色",
+              "image": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "stockId": "11bo51t2"
+          }, {
+              "stockId": "11bo51tc",
+              "color": "#71adfa",
+              "label": "蓝色",
+              "image": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg"
+          }, {
+              "image": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "stockId": "11bo51tm",
+              "color": "",
+              "label": "杏色加绒"
+          }, {
+              "label": "蓝色加绒",
+              "image": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg",
+              "stockId": "11bo51ty",
+              "color": ""
+          }]
+      },
+      "normalPriceV2": {
+          "nowPriceNum": 8800,
+          "couponPrice": "",
+          "priceSplit": "~",
+          "priceTags": [{
+              "text": "达人推荐",
+              "bgColor": "#FFE8EE",
+              "textColor": "#FF2255"
+          }],
+          "priceTopTags": [],
+          "eventPriceColor": "#FF2255",
+          "eventTags": [],
+          "mobilePrice": "",
+          "oldPrice": "",
+          "sales": "1112",
+          "prePriceTag": {
+              "textColor": "#FF2255",
+              "bgColor": "#FFE8EE"
+          },
+          "eventPrice": "",
+          "eventPriceDesc": {
+              "bgColor": "#FFE8EE",
+              "textColor": "#FF2255"
+          },
+          "mobileDownloadLink": "",
+          "extraDescs": [],
+          "currency": "¥",
+          "eventDesc": "",
+          "extraDesc": "",
+          "nowPrice": "88",
+          "highNowPrice": "99",
+          "couponDesc": "",
+          "highPriceDesc": "起",
+          "priceColor": "#333333"
+      },
+      "addCartLottery": {
+          "addCartTip": {},
+          "activityId": "",
+          "lotteryResult": []
+      },
+      "shareInfo": {
+          "isNeedShareIntegral": false,
+          "shareIntegral": false,
+          "shareLottery": false,
+          "shareLog": true,
+          "shareIntegralInfo": {
+              "shareIcon": "",
+              "momentsIcon": "https://s17.mogucdn.com/mlcdn/c45406/180316_145ilek69006jeah5gdk9669il6hd_110x110.png",
+              "strongColor": "",
+              "rules": [],
+              "ruleLink": "",
+              "color": "#333333",
+              "newTitleImage": "",
+              "bgImage": "",
+              "friendsIcon": "https://s3.mogucdn.com/mlcdn/c45406/180316_3654j24hf87f75j2e27ijjh60jllf_110x110.png",
+              "titleIcon": "",
+              "title": "",
+              "ruleTitle": ""
+          },
+          "shareLotteryInfo": {
+              "bg": "https://s10.mogucdn.com/mlcdn/c45406/180320_5i652adg4dke998412f88kf8lb0a6_630x714.png",
+              "btnColor": "#fe8605",
+              "btnText": "知道了",
+              "relationKey": "YOZhgdkPY/IPOy0DEywC9g=="
+          }
+      },
+      "crossShopDiscount": {
+          "_extra_control_hide_": true
+      },
+      "itemServices": {
+          "services": [{
+              "name": "72小时发货",
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "content": "",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893"
+          }, {
+              "name": "7天无理由退货",
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "content": "物流签收后7天内买家可无理由退货，需满足退货条件",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892"
+          }, {
+              "name": "延误必赔",
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "content": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。"
+          }, {
+              "name": "退货补运费",
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "content": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927"
+          }, {
+              "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=895",
+              "name": "全国包邮",
+              "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+              "content": ""
+          }],
+          "columns": [{
+              "name": "sales",
+              "desc": "销量 1112",
+              "icon": "https://s5.mogucdn.com/p1/161117/idid_ifrdkytcgbstoobummzdambqmeyde_512x512.png"
+          }, {
+              "icon": "https://s5.mogucdn.com/p1/161117/idid_ifqwgnbsmjsdoobummzdambqgyyde_512x512.png",
+              "name": "express",
+              "desc": "免邮费"
+          }, {
+              "name": "address",
+              "desc": "广东广州",
+              "icon": "https://s11.mogucdn.com/p1/161117/idid_ie4tgmbsgjsdoobummzdambqgqyde_512x512.png"
+          }]
+      },
+      "delayExpress": {
+          "componentKey": "forDelayShipping",
+          "_extra_control_hide_": true
+      },
+      "itemInfo": {
+          "priceChannel": 0,
+          "lowPrice": "88.00",
+          "highNowPrice": "99.00",
+          "pickforme": {
+              "h5Link": "https://h5.mogu.com/pickforme/launch/index.html?itemId=1mm51o6&acm=3.mce.1_10_1nh28.143035.0.mnmOksLNHeMZo.pos_0-m_547572-sd_119",
+              "acm": "3.mce.1_10_1nh28.143035.0.mnmOksLNHeMZo.pos_0-m_547572-sd_119",
+              "name": "帮我选",
+              "icon": "https://s10.mogucdn.com/mlcdn/c45406/191218_762ibk3def84blec68cbe4le770df_54x54.png",
+              "link": "/pages/web/index?login=true&share=true&src=https%3A%2F%2Fh5.mogu.com%2Fpickforme%2Flaunch%2Findex.html%3FitemId%3D1mm51o6%26acm%3D3.mce.1_10_1nh28.143035.0.mnmOksLNHeMZo.pos_0-m_547572-sd_119"
+          },
+          "state": 0,
+          "saleType": 0,
+          "seo": {
+              "seo_noindex": "0",
+              "title": "【蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女】-女装-女装_服饰鞋包_连衣裙_裙子-小哚哚家-蘑菇街优店",
+              "keywords": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+              "wap_url": "//m.mogujie.com/x6/detail/1mm51o6",
+              "description": "来自蘑菇街优店女装_服饰鞋包_连衣裙_裙子家蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女的蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女，发现当季女装和小哚哚家搭配心得。",
+              "alternate": "//m.mogujie.com/x6/detail/1mm51o6",
+              "links": "null",
+              "canonical": "//shop.mogujie.com/detail/1mm51o6"
+          },
+          "cFav": 5208,
+          "virtualItemType": 0,
+          "titleTags": [],
+          "highPrice": "99.00",
+          "desc": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+          "title": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+          "isFaved": false,
+          "video": {
+              "muted": false,
+              "autoplay": false
+          },
+          "picTags": [],
+          "itemId": "1mm51o6",
+          "cids": "#682# #683# #704# #705#",
+          "saleStartTime": 0,
+          "numTags": ["1525", "1019"],
+          "titleTagsV2": [],
+          "lowNowPrice": "88.00"
+      },
+      "shopRecommend": {
+          "realTimeRecommendItemList": [{
+              "isPintuan": false,
+              "price": "¥79.1",
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/190809_5kcei1b4feal6a6l72k537d38iade_640x960.jpg",
+              "iid": "1m03t1c",
+              "title": "雪纺连衣裙夏季女装裙子气质显瘦无袖波西米亚长裙海边度假沙滩裙",
+              "sale": "销量 3088",
+              "acm": "3.mce.1_4_1m03t1c.62806.93908.r9fL9sLNHgW6n.mid_62806-sd_115-pm_017-lc_201"
+          }, {
+              "iid": "1msc9s2",
+              "title": "气质针织连衣裙女夏季新款长裙过膝新款修身吊带裙显瘦打底背心裙",
+              "sale": "销量 123",
+              "acm": "3.mce.1_4_1msc9s2.62806.93908.r9fL9sLNHgW6n.mid_62806-sd_115-pm_017-lc_201",
+              "isPintuan": false,
+              "price": "¥39.9",
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/200419_0ke8c94j443g82c0gd6i31j9hehf9_5500x7150.jpg"
+          }, {
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191109_6lj05d1aekckgbf9c0dk3ga6dga4j_5000x7500.jpg",
+              "iid": "1mnohvu",
+              "title": "针织连衣裙子女春秋新款中长款过膝打底裙内搭收腰显瘦气质毛衣裙",
+              "sale": "销量 1070",
+              "acm": "3.mce.1_4_1mnohvu.62806.93908.r9fL9sLNHgW6n.mid_62806-sd_115-pm_017-lc_201",
+              "isPintuan": false,
+              "price": "¥69.3"
+          }]
+      },
+      "skuInfo": {
+          "showDelayTime": false,
+          "skus": [{
+              "color": "#ffa631",
+              "size": "S",
+              "styleId": 1,
+              "insuranceMap": {
+                  "10": [{
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228311,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10,
+                      "insurancePrice": 440
+                  }]
+              },
+              "xdSkuId": "11bo51t2",
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "currency": "¥",
+              "style": "杏色",
+              "sizeId": 100,
+              "stockId": "11bo51t2",
+              "price": 12572,
+              "nowprice": 8800,
+              "stock": 76
+          }, {
+              "xdSkuId": "11bo51t4",
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "currency": "¥",
+              "style": "杏色",
+              "color": "#ffa631",
+              "size": "M",
+              "styleId": 1,
+              "stockId": "11bo51t4",
+              "price": 12572,
+              "nowprice": 8800,
+              "stock": 52,
+              "sizeId": 101,
+              "insuranceMap": {
+                  "10": [{
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228312,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10
+                  }]
+              }
+          }, {
+              "stockId": "11bo51t6",
+              "xdSkuId": "11bo51t6",
+              "price": 12572,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "currency": "¥",
+              "stock": 98,
+              "color": "#ffa631",
+              "size": "L",
+              "styleId": 1,
+              "sizeId": 102,
+              "nowprice": 8800,
+              "style": "杏色",
+              "insuranceMap": {
+                  "10": [{
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228313,
+                      "actualPrice": 8800
+                  }]
+              }
+          }, {
+              "xdSkuId": "11bo51t8",
+              "stock": 146,
+              "style": "杏色",
+              "color": "#ffa631",
+              "styleId": 1,
+              "sizeId": 103,
+              "stockId": "11bo51t8",
+              "price": 12572,
+              "nowprice": 8800,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "currency": "¥",
+              "size": "XL",
+              "insuranceMap": {
+                  "10": [{
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228314,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10
+                  }]
+              }
+          }, {
+              "color": "#ffa631",
+              "styleId": 1,
+              "stockId": "11bo51ta",
+              "nowprice": 8800,
+              "currency": "¥",
+              "stock": 162,
+              "style": "杏色",
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228315,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "xdSkuId": "11bo51ta",
+              "price": 12572,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_35dld962aghe2ea6g631cbe90jd5a_5000x6500.jpg",
+              "size": "XXL",
+              "sizeId": 104
+          }, {
+              "nowprice": 8800,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg",
+              "currency": "¥",
+              "stock": 186,
+              "style": "蓝色",
+              "size": "S",
+              "styleId": 2,
+              "price": 12572,
+              "insuranceMap": {
+                  "10": [{
+                      "actualPrice": 8800,
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228316
+                  }]
+              },
+              "sizeId": 100,
+              "xdSkuId": "11bo51tc",
+              "color": "#71adfa",
+              "stockId": "11bo51tc"
+          }, {
+              "price": 12572,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg",
+              "style": "蓝色",
+              "color": "#71adfa",
+              "size": "M",
+              "sizeId": 101,
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228317,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "stockId": "11bo51te",
+              "xdSkuId": "11bo51te",
+              "nowprice": 8800,
+              "currency": "¥",
+              "stock": 175,
+              "styleId": 2
+          }, {
+              "insuranceMap": {
+                  "10": [{
+                      "actualPrice": 8800,
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228318
+                  }]
+              },
+              "stockId": "11bo51tg",
+              "xdSkuId": "11bo51tg",
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg",
+              "currency": "¥",
+              "size": "L",
+              "styleId": 2,
+              "sizeId": 102,
+              "price": 12572,
+              "nowprice": 8800,
+              "stock": 180,
+              "style": "蓝色",
+              "color": "#71adfa"
+          }, {
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg",
+              "currency": "¥",
+              "color": "#71adfa",
+              "size": "XL",
+              "styleId": 2,
+              "sizeId": 103,
+              "xdSkuId": "11bo51ti",
+              "nowprice": 8800,
+              "stock": 189,
+              "style": "蓝色",
+              "insuranceMap": {
+                  "10": [{
+                      "insuranceCode": 10,
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228319,
+                      "actualPrice": 8800
+                  }]
+              },
+              "stockId": "11bo51ti",
+              "price": 12572
+          }, {
+              "sizeId": 104,
+              "xdSkuId": "11bo51tk",
+              "price": 12572,
+              "nowprice": 8800,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191020_7l7j1612e40b0cajdegb01fbg21ek_5000x6500.jpg",
+              "currency": "¥",
+              "style": "蓝色",
+              "size": "XXL",
+              "insuranceMap": {
+                  "10": [{
+                      "insurancePrice": 440,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228320,
+                      "actualPrice": 8800,
+                      "insuranceCode": 10
+                  }]
+              },
+              "stockId": "11bo51tk",
+              "stock": 191,
+              "color": "#71adfa",
+              "styleId": 2
+          }, {
+              "price": 14143,
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "stock": 189,
+              "styleId": 3,
+              "color": "",
+              "size": "S",
+              "sizeId": 100,
+              "stockId": "11bo51tm",
+              "xdSkuId": "11bo51tm",
+              "nowprice": 9900,
+              "currency": "¥",
+              "style": "杏色加绒",
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228321,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819
+                  }]
+              }
+          }, {
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228322,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "stockId": "11bo51to",
+              "xdSkuId": "11bo51to",
+              "price": 14143,
+              "stock": 184,
+              "color": "",
+              "styleId": 3,
+              "sizeId": 101,
+              "nowprice": 9900,
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "currency": "¥",
+              "style": "杏色加绒",
+              "size": "M"
+          }, {
+              "xdSkuId": "11bo51tq",
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "stock": 188,
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228323,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "stockId": "11bo51tq",
+              "price": 14143,
+              "nowprice": 9900,
+              "currency": "¥",
+              "style": "杏色加绒",
+              "color": "",
+              "size": "L",
+              "styleId": 3,
+              "sizeId": 102
+          }, {
+              "price": 14143,
+              "nowprice": 9900,
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "style": "杏色加绒",
+              "color": "",
+              "size": "XL",
+              "styleId": 3,
+              "stockId": "11bo51ts",
+              "xdSkuId": "11bo51ts",
+              "currency": "¥",
+              "stock": 193,
+              "sizeId": 103,
+              "insuranceMap": {
+                  "10": [{
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228324,
+                      "actualPrice": 9900
+                  }]
+              }
+          }, {
+              "img": "https://s11.mogucdn.com/mlcdn/c45406/191017_462f6140d1cjgj35ji9869l4h2l5k_5000x6500.jpg",
+              "stock": 196,
+              "style": "杏色加绒",
+              "color": "",
+              "size": "XXL",
+              "sizeId": 104,
+              "xdSkuId": "11bo51tu",
+              "nowprice": 9900,
+              "currency": "¥",
+              "styleId": 3,
+              "insuranceMap": {
+                  "10": [{
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228325,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10
+                  }]
+              },
+              "stockId": "11bo51tu",
+              "price": 14143
+          }, {
+              "xdSkuId": "11bo51ty",
+              "price": 14143,
+              "nowprice": 9900,
+              "currency": "¥",
+              "style": "蓝色加绒",
+              "size": "S",
+              "styleId": 4,
+              "stockId": "11bo51ty",
+              "stock": 196,
+              "color": "",
+              "sizeId": 100,
+              "insuranceMap": {
+                  "10": [{
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228327
+                  }]
+              },
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg"
+          }, {
+              "color": "",
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228326,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "stockId": "11bo51tw",
+              "xdSkuId": "11bo51tw",
+              "price": 14143,
+              "stock": 195,
+              "size": "M",
+              "styleId": 4,
+              "sizeId": 101,
+              "nowprice": 9900,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg",
+              "currency": "¥",
+              "style": "蓝色加绒"
+          }, {
+              "stockId": "11bo51u0",
+              "xdSkuId": "11bo51u0",
+              "price": 14143,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg",
+              "styleId": 4,
+              "sizeId": 102,
+              "insuranceMap": {
+                  "10": [{
+                      "skuId": 1441228328,
+                      "actualPrice": 9900,
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819
+                  }]
+              },
+              "nowprice": 9900,
+              "currency": "¥",
+              "stock": 198,
+              "style": "蓝色加绒",
+              "color": "",
+              "size": "L"
+          }, {
+              "sizeId": 103,
+              "insuranceMap": {
+                  "10": [{
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228329,
+                      "actualPrice": 9900
+                  }]
+              },
+              "nowprice": 9900,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg",
+              "stock": 199,
+              "size": "XL",
+              "styleId": 4,
+              "color": "",
+              "stockId": "11bo51u2",
+              "xdSkuId": "11bo51u2",
+              "price": 14143,
+              "currency": "¥",
+              "style": "蓝色加绒"
+          }, {
+              "price": 14143,
+              "img": "https://s5.mogucdn.com/mlcdn/c45406/191017_16dh4ghfi93ca911g3f079dle17k6_5000x6500.jpg",
+              "currency": "¥",
+              "stock": 200,
+              "style": "蓝色加绒",
+              "color": "",
+              "size": "XXL",
+              "stockId": "11bo51u4",
+              "insuranceMap": {
+                  "10": [{
+                      "insuranceCode": 10,
+                      "insurancePrice": 495,
+                      "sellerUserId": 442921819,
+                      "skuId": 1441228330,
+                      "actualPrice": 9900
+                  }]
+              },
+              "sizeId": 104,
+              "nowprice": 9900,
+              "styleId": 4,
+              "xdSkuId": "11bo51u4"
+          }],
+          "styleKey": "颜色",
+          "sizeKey": "尺码",
+          "addressInfo": {},
+          "title": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+          "priceRange": "¥88.00~¥99.00",
+          "canInstallment": false,
+          "autoCouponInfo": {
+              "sellerId": "17ft4ek",
+              "isDisable": false,
+              "btnText": "领券购买",
+              "nextBtnText": "",
+              "defaultText": "立即购买",
+              "showBtnText": "立即购买",
+              "jsonExtra": "{\"goods_last_on_shelf\":\"2019-10-17 01:45:54.157\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2019-10-17 01:45:54.157\",\"tags\":\"1525,1019\"}",
+              "promotionItemTags": "[]"
+          },
+          "props": [{
+              "label": "颜色",
+              "list": [{
+                  "name": "杏色",
+                  "isDefault": false,
+                  "styleId": 1,
+                  "index": 1,
+                  "type": "style"
+              }, {
+                  "type": "style",
+                  "name": "蓝色",
+                  "isDefault": false,
+                  "styleId": 2,
+                  "index": 2
+              }, {
+                  "type": "style",
+                  "name": "杏色加绒",
+                  "isDefault": false,
+                  "styleId": 3,
+                  "index": 3
+              }, {
+                  "name": "蓝色加绒",
+                  "isDefault": false,
+                  "styleId": 4,
+                  "index": 4,
+                  "type": "style"
+              }],
+              "isDefault": false
+          }, {
+              "label": "尺码",
+              "list": [{
+                  "sizeId": 100,
+                  "index": 100,
+                  "type": "size",
+                  "name": "S",
+                  "isDefault": false
+              }, {
+                  "type": "size",
+                  "name": "M",
+                  "isDefault": false,
+                  "sizeId": 101,
+                  "index": 101
+              }, {
+                  "isDefault": false,
+                  "sizeId": 102,
+                  "index": 102,
+                  "type": "size",
+                  "name": "L"
+              }, {
+                  "type": "size",
+                  "name": "XL",
+                  "isDefault": false,
+                  "sizeId": 103,
+                  "index": 103
+              }, {
+                  "type": "size",
+                  "name": "XXL",
+                  "isDefault": false,
+                  "sizeId": 104,
+                  "index": 104
+              }],
+              "isDefault": false
+          }],
+          "totalStock": 3393,
+          "promotionItemTags": "[]",
+          "promotionExtraParams": {
+              "cids": "#682# #683# #704# #705#",
+              "shopTags": "12,427,600,700,800,801,805,823,900,903,905,940,1023,1138,1141,1271,1357,1645,1759,1837,1900,2000,3888,7711,9898,80304,80305,200767"
+          },
+          "defaultPrice": "¥88.00~¥99.00",
+          "jsonExtra": "{\"goods_last_on_shelf\":\"2019-10-17 01:45:54.157\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2019-10-17 01:45:54.157\",\"tags\":\"1525,1019\"}",
+          "isJdItem": false,
+          "insuranceMait": [{
+              "startTime": 1587544218,
+              "_system_rt_click_pv_1d": 0,
+              "name": "意外换新",
+              "_system_click_uv_1d": 0,
+              "acm": "3.mce.1_10_1oasc.145273.0.xYIbmsLNHeMWl.pos_0-m_566834-sd_119",
+              "desc": "衣物意外破损五折换新",
+              "_material_end_time": 2147483647,
+              "_system_click_uv_30d": 0,
+              "_system_click_pv_15d": 0,
+              "_system_expose_uv_30d": 0,
+              "_system_rt_expose_pv_1d": 0,
+              "_system_expose_pv_1d": 0,
+              "_system_expose_pv_15d": 0,
+              "insuranceCode": "10",
+              "_material_start_time": 1587544218,
+              "_system_rt_click_uv_1d": 0,
+              "_system_expose_uv_1d": 0,
+              "_system_expose_uv_15d": 0,
+              "_system_record_entry_id": "566834",
+              "_system_click_pv_7d": 0,
+              "_system_sort": 1,
+              "_system_click_pv_1d": 0,
+              "explainURL": "https://act.mogu.com/yiwaihuanxin202008",
+              "_system_click_uv_15d": 0,
+              "_system_click_uv_7d": 0,
+              "endTime": 2147483647,
+              "_system_expose_pv_7d": 0,
+              "_system_expose_pv_30d": 0,
+              "_system_expose_uv_7d": 0,
+              "insuranceCodeForBill": "yiwaihuanxin",
+              "_system_click_pv_30d": 0,
+              "explainXcxUrl": "https://act.mogu.com/yiwaihuanxin202008"
+          }, {
+              "_system_expose_pv_1d": 0,
+              "_system_expose_uv_1d": 0,
+              "name": "囤货无忧",
+              "endTime": 2147483647,
+              "_system_click_pv_15d": 0,
+              "_system_sort": 1,
+              "acm": "3.mce.1_10_1oase.145273.0.xYIbmsLNHeMWm.pos_1-m_566835-sd_119",
+              "_system_expose_pv_15d": 0,
+              "_system_expose_uv_7d": 0,
+              "_system_rt_click_uv_1d": 0,
+              "insuranceCodeForBill": "tunhuowuyou",
+              "desc": "全新未拆封过期可赔现金",
+              "_system_click_pv_1d": 0,
+              "_system_click_uv_30d": 0,
+              "startTime": 1587544261,
+              "_system_record_entry_id": "566835",
+              "_system_expose_uv_30d": 0,
+              "_material_start_time": 1587544261,
+              "_system_expose_uv_15d": 0,
+              "_system_expose_pv_7d": 0,
+              "_system_expose_pv_30d": 0,
+              "_system_click_pv_30d": 0,
+              "_system_click_uv_15d": 0,
+              "_system_click_pv_7d": 0,
+              "_system_click_uv_7d": 0,
+              "_system_rt_expose_pv_1d": 0,
+              "insuranceCode": "11",
+              "explainURL": "https://act.mogu.com/tunhuowuyou202008",
+              "_system_rt_click_pv_1d": 0,
+              "_material_end_time": 2147483647,
+              "_system_click_uv_1d": 0,
+              "explainXcxUrl": "https://act.mogu.com/tunhuowuyou202008"
+          }]
+      },
+      "bottomBar": {
+          "buttons": [{
+              "type": "icon",
+              "name": "shop",
+              "text": "店铺"
+          }, {
+              "type": "im",
+              "name": "im",
+              "text": "客服"
+          }, {
+              "text": "收藏",
+              "type": "icon",
+              "name": "fav"
+          }, {
+              "text": "加入购物车",
+              "isDisabled": false,
+              "type": "button",
+              "name": "cart"
+          }, {
+              "type": "button",
+              "name": "buy",
+              "text": "立即购买",
+              "isDisabled": false
+          }]
+      },
+      "officialRecommend": {},
+      "shopBannerInfo": {},
+      "tabpanelHideInfo": {
+          "moduleTabpanelRecommend": false
+      },
+      "priceBannerV2": {},
+      "orderCarousel": {
+          "list": [{
+              "avatar": "https://s11.mogucdn.com/mlcdn/5abf39/190612_39573gf8i4jd2gih118h3bk718g21_132x132.jpg",
+              "text": "一生一世npw2p5下单成功"
+          }, {
+              "avatar": "https://s11.mogucdn.com/mlcdn/5abf39/210916_180722180di6kdkl404ega37i37c7_132x132.jpg",
+              "text": "燕子gsh97r下单成功"
+          }, {
+              "avatar": "https://s5.mogucdn.com/new1/v1/bdefaultavatar/02.jpg",
+              "text": "m_fki2kglepgw3a下单成功"
+          }, {
+              "avatar": "https://s5.mogucdn.com/new1/v1/bdefaultavatar/06.jpg",
+              "text": "m_r1oto5vaa3gaa下单成功"
+          }],
+          "delayTime": 2000,
+          "fadeTime": 800,
+          "displayTime": 2500,
+          "gapTime": 500,
+          "_extra_control_hide_": false
+      },
+      "itemParams": {
+          "machedSizeLine": -1,
+          "headUnits": ["", "cm", "cm", "cm", "cm"],
+          "info": {
+              "set": {
+                  "腰型": "高腰",
+                  "领型": "圆领",
+                  "袖长": "长袖",
+                  "图案": "纯色",
+                  "颜色": "蓝色,杏色,蓝色加绒,杏色加绒",
+                  "风格": "名媛",
+                  "季节": "春季",
+                  "材质": "蕾丝",
+                  "裙型": "A字裙",
+                  "开衩": "无开衩",
+                  "袖型": "常规袖",
+                  "衣门襟": "套头",
+                  "摆型": "常规",
+                  "尺码": "S,XL,L,M,XXL",
+                  "版型": "收腰",
+                  "组合形式": "单件",
+                  "裙长": "中长裙（106-125cm）",
+                  "潮流": "韩系"
+              },
+              "key": "产品参数",
+              "anchor": "product_info"
+          }
+      },
+      "saleTextInfo": {
+          "name": "slogan"
+      },
+      "normalCountdown": {
+          "text": "",
+          "image": "",
+          "isCountdomShow": true,
+          "titleColor": "#FFFFFF",
+          "countdown": 0
+      },
+      "useBeforeBuyInfo": {},
+      "detailInfo": {
+          "desc": "蕾丝连衣裙女春季新款女装高冷御姐风性感气质显瘦内搭打底裙子女",
+          "detailImage": [{
+              "key": "图文详情",
+              "anchor": "detail_info",
+              "list": ["https://s5.mogucdn.com/mlcdn/c45406/191017_4650g0241k1ge5k1i2hef9h017839_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_31igbjba7442dfb321115ch6kbh5i_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_8f4dj53ga17d92a9alk67e1cf19ee_750x1500.jpg", "https://s11.mogucdn.com/mlcdn/c45406/191017_12d58hcl8ib8i9e343lf4b569872g_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_085fcd6ef2e757ee29bk6jia5fd07_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_77kch1gdhii6lfa58jccdhh12fh09_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_89g9chi810bebk35g505fc5272gd5_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_32j40iaafgjj3i3c236gb3b21cg32_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_7lc3k3gj26j6c77j42jei45h1ga8f_750x1500.jpg", "https://s5.mogucdn.com/mlcdn/c45406/191017_7j7ia03b85ah1jg5hihgb973k6h00_750x1500.jpg", "https://s11.mogucdn.com/mlcdn/c45406/200726_59bd6i6g3bjje4fd782ld31i19l23_772x500.jpg", "https://s11.mogucdn.com/p2/170316/77101615_2hbi2aih2ecjaeg3eikjdia6206gb_1125x380.jpg"]
+          }],
+          "shopDecorate": {},
+          "splitDetailImage": false
+      },
+      "installmentInfo": ""
+  }

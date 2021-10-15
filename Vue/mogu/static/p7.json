@@ -1,0 +1,860 @@
+ {
+     "normalPrice": {
+         "highPriceDesc": "起",
+         "eventPrice": "",
+         "eventPriceColor": "#FF2255",
+         "eventTags": [],
+         "mobileDownloadLink": "",
+         "eventDesc": "",
+         "nowPriceNum": 23541,
+         "oldPrice": "",
+         "prePriceTag": {
+             "textColor": "#FF2255",
+             "bgColor": "#FFE8EE"
+         },
+         "eventPriceDesc": {
+             "textColor": "#FF2255",
+             "bgColor": "#FFE8EE"
+         },
+         "highNowPrice": "",
+         "priceColor": "#333333",
+         "mobilePrice": "",
+         "extraDescs": [],
+         "currency": "¥",
+         "priceTags": [{
+             "text": "7折",
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         }],
+         "couponPrice": "",
+         "sales": "3",
+         "priceSplit": "~",
+         "priceTopTags": [],
+         "extraDesc": "",
+         "nowPrice": "235.41",
+         "couponDesc": ""
+     },
+     "shopRecommend": {
+         "realTimeRecommendItemList": [{
+             "isPintuan": false,
+             "price": "¥169.91",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210903_7bh9ia12fcdgd2j6656l43295fk8f_640x960.jpg",
+             "iid": "1n1qc1k",
+             "title": "ins小香风气质连衣裙女春季新款优雅淑女范娃娃领拼接A字裙",
+             "sale": "销量 4",
+             "acm": "3.mce.1_4_1n1qc1k.62806.93908.0LF9UsLeTNFyA.mid_62806-sd_115-pm_017-lc_201"
+         }, {
+             "acm": "3.mce.1_4_1mz8u3m.62806.93908.0LF9UsLeTNFyA.mid_62806-sd_115-pm_017-lc_201",
+             "isPintuan": false,
+             "price": "¥113.31",
+             "img": "https://s11.mogucdn.com/mlcdn/55cf19/210326_00f18bklb63lkg1lkfl3136915ca9_640x960.jpg",
+             "iid": "1mz8u3m",
+             "title": "夏天性感抹胸一字肩荷叶边裙子夜店女装夏季新款气质连衣裙"
+         }, {
+             "iid": "1n0j08c",
+             "title": "胖mm夏装韩版中长款吊带连衣裙子女年新款气质大码黑色长裙潮",
+             "sale": "销量 1",
+             "acm": "3.mce.1_4_1n0j08c.62806.93908.0LF9UsLeTNFyA.mid_62806-sd_115-pm_017-lc_201",
+             "isPintuan": false,
+             "price": "¥59.65",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210611_74eihcee55bgd7ik4hic6d6c4e9ka_640x960.jpg"
+         }]
+     },
+     "buyerShopRecommend": {
+         "_extra_control_hide_": true
+     },
+     "itemParams": {
+         "machedSizeLine": -1,
+         "headUnits": ["", "cm", "cm", "cm", "cm", "cm", "cm"],
+         "info": {
+             "set": {
+                 "图案": "花色",
+                 "版型": "直筒",
+                 "元素": "木耳边",
+                 "裙长": "超短裙（小于75cm）",
+                 "腰型": "高腰",
+                 "季节": "夏季",
+                 "袖长": "短袖",
+                 "颜色": "灰玻璃球,咖色泰迪熊,湖蓝泰迪熊",
+                 "摆型": "不对称",
+                 "尺码": "S,L,M",
+                 "材质": "雪纺",
+                 "组合形式": "三件套",
+                 "裙型": "蛋糕裙",
+                 "开衩": "高开衩",
+                 "袖型": "常规袖",
+                 "衣门襟": "拉链",
+                 "领型": "圆领",
+                 "风格": "简约",
+                 "潮流": "韩系"
+             },
+             "key": "产品参数",
+             "anchor": "product_info"
+         },
+         "rule": {
+             "key": "尺码说明",
+             "anchor": "size_info",
+             "disclaimer": "※ 以上尺寸为实物人工测量，因测量方式不同会有1-2cm误差，相关数据仅作参考，以收到实物为准。",
+             "tables": [
+                 [
+                     ["尺码", "胸围", "腰围", "臀围", "裙长", "袖长", "肩宽"],
+                     ["S", "-", "-", "-", "-", "-", "-"],
+                     ["M", "-", "-", "-", "-", "-", "-"],
+                     ["L", "-", "-", "-", "-", "-", "-"]
+                 ]
+             ]
+         }
+     },
+     "rateInfo": {
+         "cRate": 0,
+         "imgTotal": 0,
+         "sales": 3
+     },
+     "saleTextInfo": {
+         "name": "slogan"
+     },
+     "detailInfo": {
+         "detailImage": [{
+             "key": "图文详情",
+             "anchor": "detail_info",
+             "list": ["https://s5.mogucdn.com/mlcdn/55cf19/210326_2kh51665i154k9igdahj54j8cclkg_1079x1433.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_3314li88ch06k18l76ibdlhd6eafd_1157x1436.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_3e5763i9h0f7f1292heg41k1ed081_1000x1000.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_8a548l2ib1956ke11ggiklg122f59_664x664.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_6c18528k6aj8f9f5c2fjji816b8i8_998x998.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_3e92kcg8g8ggg8951gkcb59hji3hb_1079x1404.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_8gh7h70c2a281ab4ac5g37782j238_1000x1333.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_10aa3c9cdf0jef0lia2ebe8gjii05_1079x1412.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_2h59k121abeb13bba3ia9jdgkaee5_823x1235.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_5bb90gj9b49k2ijj9044d32634b54_1079x1465.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_3ag2l63d7bcfl2k1j1l0je8k33695_1079x1594.jpg", "https://s11.mogucdn.com/p2/170316/77101615_2hbi2aih2ecjaeg3eikjdia6206gb_1125x380.jpg"]
+         }],
+         "shopDecorate": {},
+         "splitDetailImage": true,
+         "desc": "洛丽lolita裙子洛丽塔正版cla系法式迪士尼公主现货萝莉塔连衣裙"
+     },
+     "orderCarousel": {
+         "delayTime": 2000,
+         "fadeTime": 800,
+         "displayTime": 2500,
+         "gapTime": 500,
+         "_extra_control_hide_": false
+     },
+     "normalShareInfo": {
+         "content": "亲爱的～这件宝贝不错哦，快进来看看吧～",
+         "url": "//h5.mogu.com/detail-normal/index.html?itemId=1mz8tjm&from=share",
+         "imageUrl": "https://s5.mogucdn.com/mlcdn/55cf19/210326_52c2e026ca5j38ckigccgg91bfd36_640x960.jpg",
+         "title": "洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙"
+     },
+     "itemServices": {
+         "services": [{
+             "name": "72小时发货",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893"
+         }, {
+             "name": "7天无理由退货",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "物流签收后7天内买家可无理由退货，需满足退货条件",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892"
+         }, {
+             "name": "延误必赔",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "content": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。"
+         }, {
+             "content": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927",
+             "name": "退货补运费",
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png"
+         }],
+         "columns": [{
+             "name": "sales",
+             "desc": "销量 3",
+             "icon": "https://s5.mogucdn.com/p1/161117/idid_ifrdkytcgbstoobummzdambqmeyde_512x512.png"
+         }, {
+             "icon": "https://s5.mogucdn.com/p1/161117/idid_ifqwgnbsmjsdoobummzdambqgyyde_512x512.png",
+             "name": "express",
+             "desc": "免邮费"
+         }]
+     },
+     "installmentInfo": "",
+     "shopBannerInfo": {},
+     "rateLookInfo": {},
+     "priceBannerV2": {},
+     "userInfo": {
+         "shopId": "1172vzom",
+         "isLogin": false,
+         "isSelf": false,
+         "admin": false,
+         "sellerId": "1eieonc",
+         "systemTime": 1633685007,
+         "xcxType": "H5",
+         "xcxVersion": 10,
+         "userId": "1eieonc"
+     },
+     "actorDSR": {
+         "_extra_control_hide_": true
+     },
+     "useBeforeBuyInfo": {},
+     "topImages": ["https://s5.mogucdn.com/mlcdn/55cf19/210326_52c2e026ca5j38ckigccgg91bfd36_640x960.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_5069ae99e2f36cigek8cehe81ff2d_640x960.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_88ikahaj5fah0l3191j7l60djb9ck_640x960.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_7j45db17ilji5c090e2a196f31bb3_640x960.jpg", "https://s11.mogucdn.com/mlcdn/55cf19/210326_3lai3b5cfei3l2dgalk52h1l17bi7_640x960.jpg", "https://s5.mogucdn.com/mlcdn/55cf19/210326_7b82f8bdb3bad54c64hcble14hfjb_640x960.jpg"],
+     "liveInfo": {},
+     "officialSelect": {
+         "_extra_control_hide_": true
+     },
+     "rateInfoV2": {
+         "needDSR": true,
+         "cScore": "",
+         "cRate": 0,
+         "imgTotal": 0,
+         "sales": 3
+     },
+     "preSaleInfo": "",
+     "shopInfo": {
+         "name": "菲蝶步落",
+         "type": 2,
+         "level": 3,
+         "dynShopLabels": [],
+         "cFans": "1790",
+         "cGoods": 856,
+         "levelDescV2": "推荐指数",
+         "shopLabels": [{
+             "id": 201,
+             "text": "1790人关注"
+         }, {
+             "id": 303,
+             "text": "累计销量7360"
+         }],
+         "shopLabelPriority": "101,102,201,301,302,303,401,402,501,502,601,602",
+         "categories": [{
+             "name": "单鞋",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386485"
+         }, {
+             "name": "拖鞋",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386487"
+         }, {
+             "name": "帆布运动休闲鞋",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386488"
+         }, {
+             "name": "女装上衣",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386489"
+         }, {
+             "name": "女裤",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386490"
+         }, {
+             "name": "裙装",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20386491"
+         }, {
+             "name": "靴子",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20390478"
+         }, {
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20390479",
+             "name": "时尚套装"
+         }, {
+             "name": "凉鞋",
+             "link": "http://shop.mogu.com/1172vzom/list/index?categoryId=20394261"
+         }],
+         "shopLogo": "https://s11.mogucdn.com/mlcdn/c45406/191014_3hbhgh6k680lkai88469486ka2di8_200x200.jpg",
+         "isMarked": false,
+         "score": [{
+             "name": "描述相符",
+             "score": 4.57,
+             "isBetter": false
+         }, {
+             "name": "质量满意",
+             "score": 4.57,
+             "isBetter": false
+         }],
+         "services": [{
+             "serviceHeadId": 1800,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "延误必赔",
+             "desc": "极速发货、送货保障，若发货时间晚于商家承诺时间或快递派送时间晚于平台标准，可获得延误补贴。",
+             "serviceDetailId": 1810
+         }, {
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=927",
+             "desc": "订单退货完成且绑定用于提现的银行卡，根据实际发货与收货地址，预计可获6~18元运费补贴，以实际到账为准。",
+             "serviceDetailId": 610,
+             "serviceHeadId": 600,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "退货补运费"
+         }, {
+             "desc": "物流签收后7天内买家可无理由退货，需满足退货条件",
+             "serviceDetailId": 110,
+             "serviceHeadId": 100,
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "7天无理由退货",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=892"
+         }, {
+             "icon": "https://s11.mogucdn.com/mlcdn/c45406/180417_25kbfg1c3hdbd120394ji4b11bk2k_36x36.png",
+             "name": "72小时发货",
+             "link": "https://www.mogu.com/rule/mogu?categoryId=326&ruleId=893",
+             "desc": "",
+             "serviceDetailId": 430,
+             "serviceHeadId": 400
+         }],
+         "shopId": "1172vzom",
+         "shopUrl": "//m.mogu.com/v8/meili/shop?shopid=1172vzom",
+         "saleDesc": "在架商品 ",
+         "saleDescV2": "在架商品 856",
+         "cSells": "7360",
+         "userId": "1eieonc"
+     },
+     "tabpanelHideInfo": {
+         "moduleTabpanelRecommend": false
+     },
+     "delayExpress": {
+         "componentKey": "forDelayShipping",
+         "_extra_control_hide_": true
+     },
+     "sizeHelper": {
+         "title": "尺码推荐: 暂无",
+         "entrance": "查看尺码表"
+     },
+     "promotionV2": {
+         "sellerId": "1eieonc",
+         "iid": "1mz8tjm",
+         "request": {
+             "preSale": false,
+             "sellerId": "1eieonc",
+             "itemIds": "1mz8tjm",
+             "itemPrice": 23541
+         },
+         "showShopPromotion": true,
+         "popoversRealtime": [],
+         "outersRealtime": [],
+         "calculateDiscount": {
+             "discountDesc": "",
+             "originalPrice": "",
+             "originalPriceDesc": "",
+             "discountList": []
+         },
+         "promotionStyle": {
+             "arrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_21h4k1gj40d3j5b68a9k7dk62i5ik_120x50.png",
+             "couponArrowImg": "https://s10.mogucdn.com/mlcdn/c45406/210107_13dkdf1076bbfijhaddgh2i07917g_120x50.png"
+         }
+     },
+     "bottomBar": {
+         "buttons": [{
+             "type": "icon",
+             "name": "shop",
+             "text": "店铺"
+         }, {
+             "type": "im",
+             "name": "im",
+             "text": "客服"
+         }, {
+             "name": "fav",
+             "text": "收藏",
+             "type": "icon"
+         }, {
+             "type": "button",
+             "name": "cart",
+             "text": "加入购物车",
+             "isDisabled": false
+         }, {
+             "type": "button",
+             "name": "buy",
+             "text": "立即购买",
+             "isDisabled": false
+         }]
+     },
+     "addCartLottery": {
+         "addCartTip": {},
+         "activityId": "",
+         "lotteryResult": []
+     },
+     "liveLabelInfo": {},
+     "skuInfo": {
+         "totalStock": 3551,
+         "canInstallment": false,
+         "showDelayTime": false,
+         "autoCouponInfo": {
+             "btnText": "领券购买",
+             "nextBtnText": "",
+             "defaultText": "立即购买",
+             "showBtnText": "立即购买",
+             "jsonExtra": "{\"goods_last_on_shelf\":\"2021-03-26 12:46:38.517\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2021-03-26 12:46:38.517\",\"tags\":\"1525,1019,1854\"}",
+             "promotionItemTags": "[]",
+             "sellerId": "1eieonc",
+             "isDisable": false
+         },
+         "title": "洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙",
+         "skus": [{
+             "color": "",
+             "styleId": 1,
+             "sizeId": 100,
+             "nowprice": 23541,
+             "currency": "¥",
+             "stock": 433,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_02b49jigi6jb54b5e6b7a5f9gceg7_1079x1404.jpg",
+             "style": "咖色泰迪熊",
+             "size": "S",
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1606173610,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819
+                 }]
+             },
+             "stockId": "11h4jr0s",
+             "xdSkuId": "11h4jr0s",
+             "price": 33630
+         }, {
+             "xdSkuId": "11h4jr10",
+             "price": 33630,
+             "size": "M",
+             "styleId": 1,
+             "sizeId": 101,
+             "color": "",
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1606173614,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819
+                 }]
+             },
+             "stockId": "11h4jr10",
+             "nowprice": 23541,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_1e4c222fb1f5eg06lg5ih95ke4b9h_1079x1404.jpg",
+             "currency": "¥",
+             "stock": 448,
+             "style": "咖色泰迪熊"
+         }, {
+             "stock": 461,
+             "stockId": "11h4jr0m",
+             "img": "https://s11.mogucdn.com/mlcdn/55cf19/210326_42dgdld4l0ia37d3afkdik6b18h7h_1079x1404.jpg",
+             "currency": "¥",
+             "style": "咖色泰迪熊",
+             "color": "",
+             "size": "L",
+             "styleId": 1,
+             "sizeId": 102,
+             "xdSkuId": "11h4jr0m",
+             "price": 33630,
+             "nowprice": 23541,
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1606173607,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819
+                 }]
+             }
+         }, {
+             "nowprice": 23541,
+             "style": "灰玻璃球",
+             "color": "",
+             "size": "S",
+             "styleId": 2,
+             "stockId": "11h4jr0o",
+             "price": 33630,
+             "currency": "¥",
+             "stock": 314,
+             "sizeId": 100,
+             "insuranceMap": {
+                 "10": [{
+                     "sellerUserId": 442921819,
+                     "skuId": 1606173608,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177
+                 }]
+             },
+             "xdSkuId": "11h4jr0o",
+             "img": "https://s11.mogucdn.com/mlcdn/55cf19/210326_681h4li2j82g6b02l5ia4lld3a788_1079x1433.jpg"
+         }, {
+             "xdSkuId": "11h4jr0u",
+             "price": 33630,
+             "nowprice": 23541,
+             "currency": "¥",
+             "color": "",
+             "size": "M",
+             "sizeId": 101,
+             "stockId": "11h4jr0u",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_8b2c9b4heg8b0bfhkia0ea0led7a3_1079x1433.jpg",
+             "stock": 339,
+             "style": "灰玻璃球",
+             "styleId": 2,
+             "insuranceMap": {
+                 "10": [{
+                     "sellerUserId": 442921819,
+                     "skuId": 1606173611,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177
+                 }]
+             }
+         }, {
+             "insuranceMap": {
+                 "10": [{
+                     "sellerUserId": 442921819,
+                     "skuId": 1606173612,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177
+                 }]
+             },
+             "stockId": "11h4jr0w",
+             "xdSkuId": "11h4jr0w",
+             "price": 33630,
+             "nowprice": 23541,
+             "currency": "¥",
+             "size": "L",
+             "styleId": 2,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_8b2c9b4heg8b0bfhkia0ea0led7a3_1079x1433.jpg",
+             "stock": 375,
+             "style": "灰玻璃球",
+             "color": "",
+             "sizeId": 102
+         }, {
+             "xdSkuId": "11h4jr0q",
+             "currency": "¥",
+             "style": "湖蓝泰迪熊",
+             "styleId": 3,
+             "size": "S",
+             "sizeId": 100,
+             "stockId": "11h4jr0q",
+             "price": 33630,
+             "nowprice": 23541,
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_3e2h72716llb4ja2li9a7ha2fgeh6_1000x1333.jpg",
+             "stock": 365,
+             "color": "",
+             "insuranceMap": {
+                 "10": [{
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819,
+                     "skuId": 1606173609,
+                     "actualPrice": 23541
+                 }]
+             }
+         }, {
+             "xdSkuId": "11h4jr0y",
+             "price": 33630,
+             "size": "M",
+             "stock": 385,
+             "style": "湖蓝泰迪熊",
+             "color": "",
+             "styleId": 3,
+             "stockId": "11h4jr0y",
+             "nowprice": 23541,
+             "img": "https://s11.mogucdn.com/mlcdn/55cf19/210326_3ce4a040febac20d3e3jh92liifk0_1000x1333.jpg",
+             "currency": "¥",
+             "sizeId": 101,
+             "insuranceMap": {
+                 "10": [{
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819,
+                     "skuId": 1606173613,
+                     "actualPrice": 23541
+                 }]
+             }
+         }, {
+             "img": "https://s11.mogucdn.com/mlcdn/55cf19/210326_3ce4a040febac20d3e3jh92liifk0_1000x1333.jpg",
+             "style": "湖蓝泰迪熊",
+             "color": "",
+             "size": "L",
+             "styleId": 3,
+             "sizeId": 102,
+             "nowprice": 23541,
+             "xdSkuId": "11h4jr12",
+             "price": 33630,
+             "currency": "¥",
+             "stock": 431,
+             "insuranceMap": {
+                 "10": [{
+                     "skuId": 1606173615,
+                     "actualPrice": 23541,
+                     "insuranceCode": 10,
+                     "insurancePrice": 1177,
+                     "sellerUserId": 442921819
+                 }]
+             },
+             "stockId": "11h4jr12"
+         }],
+         "defaultPrice": "¥235.41",
+         "isJdItem": false,
+         "props": [{
+             "isDefault": false,
+             "label": "颜色",
+             "list": [{
+                 "type": "style",
+                 "name": "咖色泰迪熊",
+                 "isDefault": false,
+                 "styleId": 1,
+                 "index": 1
+             }, {
+                 "isDefault": false,
+                 "styleId": 2,
+                 "index": 2,
+                 "type": "style",
+                 "name": "灰玻璃球"
+             }, {
+                 "styleId": 3,
+                 "index": 3,
+                 "type": "style",
+                 "name": "湖蓝泰迪熊",
+                 "isDefault": false
+             }]
+         }, {
+             "label": "尺码",
+             "list": [{
+                 "sizeId": 100,
+                 "index": 100,
+                 "type": "size",
+                 "name": "S",
+                 "isDefault": false
+             }, {
+                 "type": "size",
+                 "name": "M",
+                 "isDefault": false,
+                 "sizeId": 101,
+                 "index": 101
+             }, {
+                 "type": "size",
+                 "name": "L",
+                 "isDefault": false,
+                 "sizeId": 102,
+                 "index": 102
+             }],
+             "isDefault": false
+         }],
+         "styleKey": "颜色",
+         "promotionItemTags": "[]",
+         "sizeKey": "尺码",
+         "priceRange": "¥235.41",
+         "insuranceMait": [{
+             "_system_rt_click_pv_1d": 0,
+             "_system_click_pv_30d": 0,
+             "_system_click_uv_15d": 0,
+             "_system_rt_expose_pv_1d": 0,
+             "insuranceCode": "10",
+             "explainURL": "https://act.mogu.com/yiwaihuanxin202008",
+             "_system_expose_pv_7d": 0,
+             "_material_end_time": 2147483647,
+             "acm": "3.mce.1_10_1oasc.145273.0.zJD6XsLeTL9Hl.pos_0-m_566834-sd_119",
+             "explainXcxUrl": "https://act.mogu.com/yiwaihuanxin202008",
+             "_system_expose_pv_30d": 0,
+             "_system_rt_click_uv_1d": 0,
+             "_system_expose_uv_15d": 0,
+             "insuranceCodeForBill": "yiwaihuanxin",
+             "_system_click_pv_1d": 0,
+             "_system_click_uv_30d": 0,
+             "_system_expose_uv_1d": 0,
+             "desc": "衣物意外破损五折换新",
+             "_system_sort": 1,
+             "_system_expose_uv_30d": 0,
+             "_material_start_time": 1587544218,
+             "_system_click_pv_7d": 0,
+             "_system_click_pv_15d": 0,
+             "_system_click_uv_1d": 0,
+             "startTime": 1587544218,
+             "_system_expose_pv_1d": 0,
+             "_system_expose_pv_15d": 0,
+             "_system_click_uv_7d": 0,
+             "endTime": 2147483647,
+             "_system_record_entry_id": "566834",
+             "_system_expose_uv_7d": 0,
+             "name": "意外换新"
+         }, {
+             "_system_expose_uv_15d": 0,
+             "name": "囤货无忧",
+             "_system_click_pv_15d": 0,
+             "_system_click_uv_7d": 0,
+             "startTime": 1587544261,
+             "_system_click_pv_30d": 0,
+             "acm": "3.mce.1_10_1oase.145273.0.zJD6XsLeTL9Hm.pos_1-m_566835-sd_119",
+             "_system_expose_pv_1d": 0,
+             "_system_expose_pv_30d": 0,
+             "_system_expose_uv_1d": 0,
+             "endTime": 2147483647,
+             "_system_expose_pv_15d": 0,
+             "_system_expose_uv_30d": 0,
+             "explainXcxUrl": "https://act.mogu.com/tunhuowuyou202008",
+             "_system_expose_uv_7d": 0,
+             "desc": "全新未拆封过期可赔现金",
+             "_system_click_pv_1d": 0,
+             "_material_end_time": 2147483647,
+             "_material_start_time": 1587544261,
+             "_system_click_uv_30d": 0,
+             "_system_click_uv_1d": 0,
+             "_system_record_entry_id": "566835",
+             "_system_rt_expose_pv_1d": 0,
+             "insuranceCodeForBill": "tunhuowuyou",
+             "_system_click_uv_15d": 0,
+             "_system_expose_pv_7d": 0,
+             "_system_sort": 1,
+             "explainURL": "https://act.mogu.com/tunhuowuyou202008",
+             "insuranceCode": "11",
+             "_system_rt_click_uv_1d": 0,
+             "_system_rt_click_pv_1d": 0,
+             "_system_click_pv_7d": 0
+         }],
+         "addressInfo": {},
+         "jsonExtra": "{\"goods_last_on_shelf\":\"2021-03-26 12:46:38.517\",\"back\":\"java\",\"from\":\"sell\",\"source\":8,\"goods_on_shelf\":\"2021-03-26 12:46:38.517\",\"tags\":\"1525,1019,1854\"}",
+         "promotionExtraParams": {
+             "shopTags": "600,823,903,940,1935,2000,3888,9898",
+             "cids": "#682# #683# #704# #705#"
+         }
+     },
+     "normalPriceV2": {
+         "priceSplit": "~",
+         "priceTopTags": [],
+         "eventPriceDesc": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "mobilePrice": "",
+         "mobileDownloadLink": "",
+         "eventDesc": "",
+         "extraDescs": [],
+         "nowPrice": "235.41",
+         "highNowPrice": "",
+         "currency": "¥",
+         "prePriceTag": {
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255"
+         },
+         "eventPrice": "",
+         "extraDesc": "",
+         "nowPriceNum": 23541,
+         "couponDesc": "",
+         "priceColor": "#333333",
+         "oldPrice": "",
+         "couponPrice": "",
+         "sales": "3",
+         "highPriceDesc": "起",
+         "priceTags": [{
+             "bgColor": "#FFE8EE",
+             "textColor": "#FF2255",
+             "text": "7折"
+         }],
+         "eventPriceColor": "#FF2255",
+         "eventTags": []
+     },
+     "liveExplainInfo": {},
+     "officialRecommend": {},
+     "installmentGuide": {},
+     "itemInfo": {
+         "isFaved": false,
+         "saleType": 0,
+         "titleTags": [],
+         "highNowPrice": "235.41",
+         "virtualItemType": 0,
+         "titleTagsV2": [],
+         "picTags": [],
+         "highPrice": "235.41",
+         "itemId": "1mz8tjm",
+         "cFav": 80,
+         "state": 0,
+         "seo": {
+             "description": "来自蘑菇街优店女装_服饰鞋包_连衣裙_裙子家洛丽lolita裙子洛丽塔正版cla系法式迪士尼公主现货萝莉塔连衣裙的洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙，发现当季女鞋和菲蝶步落搭配心得。",
+             "alternate": "//m.mogujie.com/x6/detail/1mz8tjm",
+             "links": "null",
+             "canonical": "//shop.mogujie.com/detail/1mz8tjm",
+             "seo_noindex": "0",
+             "title": "【洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙】-女鞋-女装_服饰鞋包_连衣裙_裙子-菲蝶步落-蘑菇街优店",
+             "keywords": "洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙",
+             "wap_url": "//m.mogujie.com/x6/detail/1mz8tjm"
+         },
+         "lowNowPrice": "235.41",
+         "desc": "洛丽lolita裙子洛丽塔正版cla系法式迪士尼公主现货萝莉塔连衣裙",
+         "cids": "#682# #683# #704# #705#",
+         "saleStartTime": 0,
+         "video": {
+             "muted": false,
+             "autoplay": false
+         },
+         "pickforme": {
+             "link": "/pages/web/index?login=true&share=true&src=https%3A%2F%2Fh5.mogu.com%2Fpickforme%2Flaunch%2Findex.html%3FitemId%3D1mz8tjm%26acm%3D3.mce.1_10_1nh28.143035.0.5KcplsLeTL9Ig.pos_0-m_547572-sd_119",
+             "h5Link": "https://h5.mogu.com/pickforme/launch/index.html?itemId=1mz8tjm&acm=3.mce.1_10_1nh28.143035.0.5KcplsLeTL9Ig.pos_0-m_547572-sd_119",
+             "acm": "3.mce.1_10_1nh28.143035.0.5KcplsLeTL9Ig.pos_0-m_547572-sd_119",
+             "name": "帮我选",
+             "icon": "https://s10.mogucdn.com/mlcdn/c45406/191218_762ibk3def84blec68cbe4le770df_54x54.png"
+         },
+         "title": "洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙",
+         "numTags": ["1525", "1019", "1854"],
+         "priceChannel": 0,
+         "lowPrice": "235.41"
+     },
+     "hotSaleRankInfo": {
+         "_extra_control_hide_": true
+     },
+     "platformCoupons": {
+         "couponInfo": {
+             "title": "",
+             "couponList": []
+         },
+         "popoverPlatformCoupons": {
+             "title": "",
+             "list": []
+         }
+     },
+     "crossShopDiscount": {
+         "_extra_control_hide_": true
+     },
+     "normalCountdown": {
+         "image": "",
+         "isCountdomShow": true,
+         "titleColor": "#FFFFFF",
+         "countdown": 0,
+         "text": ""
+     },
+     "skuBarInfo": {
+         "type": "SKU_IMAGE",
+         "list": [{
+             "color": "",
+             "label": "咖色泰迪熊",
+             "image": "https://s5.mogucdn.com/mlcdn/55cf19/210326_02b49jigi6jb54b5e6b7a5f9gceg7_1079x1404.jpg",
+             "stockId": "11h4jr0s"
+         }, {
+             "color": "",
+             "label": "灰玻璃球",
+             "image": "https://s11.mogucdn.com/mlcdn/55cf19/210326_681h4li2j82g6b02l5ia4lld3a788_1079x1433.jpg",
+             "stockId": "11h4jr0o"
+         }, {
+             "color": "",
+             "label": "湖蓝泰迪熊",
+             "image": "https://s5.mogucdn.com/mlcdn/55cf19/210326_3e2h72716llb4ja2li9a7ha2fgeh6_1000x1333.jpg",
+             "stockId": "11h4jr0q"
+         }],
+         "labelV2": "颜色\n规格",
+         "label": "颜色规格"
+     },
+     "saleTextInfoV2": {
+         "name": "slogan"
+     },
+     "shareInfo": {
+         "shareIntegral": false,
+         "shareLottery": false,
+         "shareLog": true,
+         "shareIntegralInfo": {
+             "momentsIcon": "https://s17.mogucdn.com/mlcdn/c45406/180316_145ilek69006jeah5gdk9669il6hd_110x110.png",
+             "titleIcon": "",
+             "color": "#333333",
+             "rules": [],
+             "bgImage": "",
+             "friendsIcon": "https://s3.mogucdn.com/mlcdn/c45406/180316_3654j24hf87f75j2e27ijjh60jllf_110x110.png",
+             "ruleTitle": "",
+             "ruleLink": "",
+             "strongColor": "",
+             "newTitleImage": "",
+             "shareIcon": "",
+             "title": ""
+         },
+         "shareLotteryInfo": {
+             "relationKey": "YOZhgdkPY/IPOy0DEywC9g==",
+             "bg": "https://s10.mogucdn.com/mlcdn/c45406/180320_5i652adg4dke998412f88kf8lb0a6_630x714.png",
+             "btnColor": "#fe8605",
+             "btnText": "知道了"
+         },
+         "isNeedShareIntegral": false
+     },
+     "webImOptionInfo": {
+         "option": {
+             "title": "洛丽lolita裙子洛丽塔系法式迪士尼公主现货萝莉塔连衣裙",
+             "shopId": "1172vzom",
+             "userId": "1eieonc",
+             "goodsId": "1mz8tjm",
+             "img": "https://s5.mogucdn.com/mlcdn/55cf19/210326_52c2e026ca5j38ckigccgg91bfd36_640x960.jpg"
+         },
+         "showOnBottom": true
+     },
+     "priceBanner": {}
+ }
